@@ -18,7 +18,6 @@ PRODUCT_PACKAGES += \
 	cmnlib_b02 \
 	cmnlib_b03 \
 	cmnlib_mdt \
-	cpp_firmware_v1_8_0 \
 	fidocrypto_b00 \
 	fidocrypto_b01 \
 	fidocrypto_b02 \
