@@ -122,7 +122,6 @@ PRODUCT_PACKAGES += \
 	libq3dtools_esx \
 	gatekeeper_msm8952 \
 	keystore_msm8952 \
-	sensors_msm8952 \
 	libC2D2 \
 	libCB \
 	libOpenCL \
