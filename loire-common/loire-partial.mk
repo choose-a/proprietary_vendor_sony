@@ -15,7 +15,6 @@
 PRODUCT_PACKAGES += \
 	irsc_util \
 	mlog_qmi_service \
-	mm-qcamera-daemon \
 	msm_irqbalance \
 	netmgrd \
 	pm-proxy \
@@ -51,6 +50,8 @@ PRODUCT_PACKAGES += \
 	fidocrypto_b02 \
 	fidocrypto_b03 \
 	fidocrypto_mdt \
+	fw_bcmdhd \
+	fw_bcmdhd_apsta \
 	touch_module_id_0x90 \
 	touch_module_id_0x91 \
 	touch_module_id_0x92 \
@@ -132,8 +133,6 @@ PRODUCT_PACKAGES += \
 	libacdbloader \
 	libacdbmapper \
 	libacdbrtac \
-	libactuator_bu64747gwz \
-	libactuator_lc898217 \
 	libadiertac \
 	libadreno_utils \
 	libadsprpc \
@@ -144,51 +143,16 @@ PRODUCT_PACKAGES += \
 	libc2d30-a5xx \
 	libc2d30_bltlib \
 	libchromaflash \
-	libchromatix_imx214_common \
-	libchromatix_imx214_cpp_liveshot \
-	libchromatix_imx214_cpp_preview \
-	libchromatix_imx214_cpp_snapshot \
-	libchromatix_imx214_cpp_video \
-	libchromatix_imx214_default_preview \
-	libchromatix_imx214_default_video \
-	libchromatix_imx214_liveshot \
-	libchromatix_imx214_postproc \
-	libchromatix_imx214_preview \
-	libchromatix_imx214_snapshot \
-	libchromatix_imx214_video \
-	libchromatix_imx241_common \
-	libchromatix_imx241_cpp_liveshot \
-	libchromatix_imx241_cpp_preview \
-	libchromatix_imx241_cpp_snapshot \
-	libchromatix_imx241_cpp_video \
-	libchromatix_imx241_default_preview \
-	libchromatix_imx241_default_video \
-	libchromatix_imx241_liveshot \
-	libchromatix_imx241_postproc \
-	libchromatix_imx241_preview \
-	libchromatix_imx241_snapshot \
-	libchromatix_imx241_video \
-	libchromatix_imx300_common \
-	libchromatix_imx300_cpp_liveshot \
-	libchromatix_imx300_cpp_preview \
-	libchromatix_imx300_cpp_snapshot \
-	libchromatix_imx300_cpp_video \
-	libchromatix_imx300_default_preview_bu64747gwz \
-	libchromatix_imx300_default_video_bu64747gwz \
-	libchromatix_imx300_liveshot \
-	libchromatix_imx300_postproc \
-	libchromatix_imx300_preview \
-	libchromatix_imx300_snapshot \
-	libchromatix_imx300_video \
 	libconfigdb \
 	libdiag \
+	libdiagjni \
 	libdrmfs \
 	libdrmtime \
 	libdsi_netctrl \
 	libdsutils \
-	libfastcvadsp_stub \
 	libfastcvopt \
-	libflash_pmic \
+	libfastrpc_utf_stub \
+	libfiltergenerator \
 	libgsl \
 	libidl \
 	libjpegdhw \
@@ -196,88 +160,41 @@ PRODUCT_PACKAGES += \
 	libjpegehw \
 	libllvm-glnext \
 	libllvm-qcom \
+	libllvm-qgl \
 	liblqe \
 	libmdmdetect \
 	libmiscta \
 	libmm-qdcm \
-	libmmcamera2_c2d_module \
-	libmmcamera2_cpp_module \
 	libmmcamera2_frame_algorithm \
-	libmmcamera2_iface_modules \
-	libmmcamera2_imglib_modules \
 	libmmcamera2_is \
-	libmmcamera2_isp_modules \
-	libmmcamera2_mct \
-	libmmcamera2_pp_buf_mgr \
-	libmmcamera2_pproc_modules \
 	libmmcamera2_q3a_core \
-	libmmcamera2_sensor_debug \
-	libmmcamera2_sensor_modules \
 	libmmcamera2_stats_algorithm \
-	libmmcamera2_stats_modules \
-	libmmcamera2_vpe_module \
-	libmmcamera2_wnr_module \
+	libmmcamera2_stats_lib \
 	libmmcamera_chromaflash_lib \
-	libmmcamera_csidtg \
-	libmmcamera_eeprom_util \
-	libmmcamera_eztune_module \
-	libmmcamera_faceproc \
+	libmmcamera_edgesmooth_lib \
+	libmmcamera_facedetection_lib \
 	libmmcamera_hdr_gb_lib \
-	libmmcamera_imglib \
-	libmmcamera_imx214 \
-	libmmcamera_imx241_1 \
-	libmmcamera_imx300 \
-	libmmcamera_isp_abcc44 \
-	libmmcamera_isp_abf40 \
-	libmmcamera_isp_bcc40 \
-	libmmcamera_isp_be_stats44 \
-	libmmcamera_isp_bf_stats47 \
-	libmmcamera_isp_bg_stats44 \
-	libmmcamera_isp_bhist_stats44 \
-	libmmcamera_isp_bpc40 \
-	libmmcamera_isp_chroma_enhan40 \
-	libmmcamera_isp_chroma_suppress40 \
-	libmmcamera_isp_clamp_encoder40 \
-	libmmcamera_isp_clamp_video40 \
-	libmmcamera_isp_clamp_viewfinder40 \
-	libmmcamera_isp_color_correct40 \
-	libmmcamera_isp_color_xform_encoder40 \
-	libmmcamera_isp_color_xform_viewfinder40 \
-	libmmcamera_isp_cs_stats44 \
-	libmmcamera_isp_demosaic40 \
-	libmmcamera_isp_demux40 \
-	libmmcamera_isp_fovcrop_encoder40 \
-	libmmcamera_isp_fovcrop_viewfinder40 \
-	libmmcamera_isp_gamma40 \
-	libmmcamera_isp_ihist_stats44 \
-	libmmcamera_isp_linearization40 \
-	libmmcamera_isp_ltm44 \
-	libmmcamera_isp_luma_adaptation40 \
-	libmmcamera_isp_mce40 \
-	libmmcamera_isp_mesh_rolloff40 \
-	libmmcamera_isp_rs_stats44 \
-	libmmcamera_isp_scaler_encoder44 \
-	libmmcamera_isp_scaler_viewfinder44 \
-	libmmcamera_isp_sce40 \
-	libmmcamera_isp_sub_module \
-	libmmcamera_isp_wb40 \
+	libmmcamera_hvx_add_constant \
+	libmmcamera_hvx_grid_sum \
+	libmmcamera_llvd \
+	libmmcamera_optizoom_lib \
+	libmmcamera_paaf_lib \
 	libmmcamera_pdaf \
 	libmmcamera_pdafcamif \
-	libmmcamera_ppbase_module \
+	libmmcamera_sac_lib \
+	libmmcamera_sat_dummy_lib \
 	libmmcamera_stillmore_lib \
-	libmmcamera_thread_services \
 	libmmcamera_tintless_algo \
 	libmmcamera_tintless_bg_pca_algo \
 	libmmcamera_trueportrait_lib \
-	libmmcamera_tuning \
-	libmmcamera_tuning_lookup \
 	libmmcamera_ubifocus_lib \
-	libmmcamera_vpu_module \
 	libmmjpeg \
 	libmmqjpeg_codec \
 	libmmqjpegdma \
 	libnetmgr \
 	libomx-dts \
+	liboptizoom \
+	libpdmapper \
 	libperipheral_client \
 	libqcci_legacy \
 	libqdi \
@@ -286,22 +203,26 @@ PRODUCT_PACKAGES += \
 	libqmi_cci \
 	libqmi_client_helper \
 	libqmi_client_qmux \
-	libqmi_common \
+	libqmi_common_so \
 	libqmi_csi \
 	libqmi_encdec \
 	libqmiservices \
+	libqmiservices_ext \
 	libqomx_jpegdec \
 	libqomx_jpegenc \
 	libqomx_jpegenc_pipe \
+	libril-qc-ltedirectdisc \
 	libril-qc-qmi-1 \
-	libril-qc-qmi-2 \
+	libril-qc-radioconfig \
 	libril-qcril-hook-oem \
+	librilqmiservices \
 	librpmb \
 	librs_adreno \
 	librs_adreno_sha1 \
 	libseemore \
 	libsensor1 \
 	libsensor_reg \
+	libsettings \
 	libsmemlog \
 	libssd \
 	libsystem_health_mon \
