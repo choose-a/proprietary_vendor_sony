@@ -16,7 +16,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(SONY_AOSP),true)
 
-ifneq ($(filter rhine shinano kanuti kitakami , $(PRODUCT_PLATFORM)), )
+ifneq ($(filter rhine shinano kitakami , $(PRODUCT_PLATFORM)), )
 include $(CLEAR_VARS)
 LOCAL_MODULE := libchromaflash
 LOCAL_MODULE_OWNER := Sony Mobile
