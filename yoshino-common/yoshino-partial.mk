@@ -216,8 +216,8 @@ PRODUCT_PACKAGES += \
 	libactuator_lc898217xc \
 	libadiertac \
 	libadreno_utils \
-	libadsprpc \
 	libadsp_default_listener \
+	libadsprpc \
 	libaudcal \
 	libaudioalsa \
 	libbtnv \
