@@ -13,6 +13,7 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
+	adsprpcd \
 	irsc_util \
 	mlog_qmi_service \
 	msm_irqbalance \
@@ -50,8 +51,6 @@ PRODUCT_PACKAGES += \
 	fidocrypto_b02 \
 	fidocrypto_b03 \
 	fidocrypto_mdt \
-	fw_bcmdhd \
-	fw_bcmdhd_apsta \
 	touch_module_id_0x90 \
 	touch_module_id_0x91 \
 	touch_module_id_0x92 \
@@ -135,6 +134,7 @@ PRODUCT_PACKAGES += \
 	libacdbrtac \
 	libadiertac \
 	libadreno_utils \
+	libadsp_default_listener \
 	libadsprpc \
 	libaudcal \
 	libaudioalsa \

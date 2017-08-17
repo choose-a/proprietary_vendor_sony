@@ -18,6 +18,17 @@ ifeq ($(SONY_AOSP),true)
 
 ifeq ($(PRODUCT_PLATFORM),loire)
 include $(CLEAR_VARS)
+LOCAL_MODULE := adsprpcd
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/bin/adsprpcd
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := 
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := irsc_util
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/bin/irsc_util
@@ -434,28 +445,6 @@ LOCAL_SRC_FILES := vendor/firmware/fidocrypto.mdt
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := fidocrypto
 LOCAL_MODULE_SUFFIX := .mdt
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := fw_bcmdhd
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/firmware/fw_bcmdhd.bin
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .bin
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := fw_bcmdhd_apsta
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/firmware/fw_bcmdhd_apsta.bin
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .bin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
@@ -1443,6 +1432,18 @@ LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libadreno_utils.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libadreno_utils
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libadsp_default_listener
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libadsp_default_listener.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libadsp_default_listener
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
@@ -2815,6 +2816,18 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libadsp_default_listener
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libadsp_default_listener.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libadsp_default_listener
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libadsprpc
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libadsprpc.so
@@ -3497,6 +3510,6 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
-endif
+endif # PLATFORM
 
-endif
+endif # SONY_AOSP
