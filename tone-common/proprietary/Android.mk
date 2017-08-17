@@ -15,6 +15,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(SONY_AOSP),true)
+
 ifeq ($(PRODUCT_PLATFORM),tone)
 include $(CLEAR_VARS)
 LOCAL_MODULE := adsprpcd
@@ -673,28 +674,6 @@ LOCAL_SRC_FILES := vendor/firmware/fidocrypto.mdt
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := fidocrypto
 LOCAL_MODULE_SUFFIX := .mdt
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := fw_bcmdhd
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/firmware/fw_bcmdhd.bin
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .bin
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := fw_bcmdhd_apsta
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/firmware/fw_bcmdhd_apsta.bin
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .bin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
@@ -1880,6 +1859,18 @@ LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libadreno_utils.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libadreno_utils
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libadsp_default_listener
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libadsp_default_listener.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libadsp_default_listener
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
@@ -4431,18 +4422,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64/hw
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libadsp_default_listener
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib64/libadsp_default_listener.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libadsp_default_listener
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libC2D2
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libC2D2.so
@@ -4568,6 +4547,18 @@ LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libadreno_utils.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libadreno_utils
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libadsp_default_listener
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libadsp_default_listener.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libadsp_default_listener
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
@@ -5269,5 +5260,6 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
-endif
-endif
+endif #PRODUCT_PLATFORM
+
+endif #SONY_AOSP
