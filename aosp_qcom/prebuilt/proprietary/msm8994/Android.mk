@@ -182,6 +182,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/hw
 include $(BUILD_PREBUILT)
 
+ifneq ($(filter true, $(USE_SENSOR_MULTI_HAL)), )
 include $(CLEAR_VARS)
 LOCAL_MODULE := sensors.msm8994
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -192,6 +193,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/hw
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libQSEEComAPI
@@ -2212,6 +2214,7 @@ LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64/hw
 include $(BUILD_PREBUILT)
 
+ifneq ($(filter true, $(USE_SENSOR_MULTI_HAL)), )
 include $(CLEAR_VARS)
 LOCAL_MODULE := sensors.msm8994
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2222,6 +2225,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64/hw
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libQSEEComAPI
