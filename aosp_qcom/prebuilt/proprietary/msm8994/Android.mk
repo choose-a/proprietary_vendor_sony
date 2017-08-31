@@ -971,6 +971,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
+ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libdsi_netctrl
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -981,6 +982,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libdsutils
@@ -1967,6 +1969,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
+ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqmi_cci
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -1977,6 +1980,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqmi_client_helper
@@ -2000,6 +2004,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
+ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqmi_common_so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2021,6 +2026,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqmi_encdec
@@ -2033,6 +2039,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
+ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqmiservices
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2043,6 +2050,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqomx_jpegdec
@@ -2077,6 +2085,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
+ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libril-qc-qmi-1
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2098,6 +2107,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libril-qcril-hook-oem
@@ -2176,6 +2186,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
+ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libta
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2197,6 +2208,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libxml
@@ -2376,6 +2388,7 @@ LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
+ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libdsi_netctrl
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2386,6 +2399,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libdsutils
@@ -2508,6 +2522,7 @@ LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
+ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqmi_cci
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2518,6 +2533,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqmi_client_helper
@@ -2541,6 +2557,7 @@ LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
+ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqmi_common_so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2562,6 +2579,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqmi_encdec
@@ -2574,6 +2592,7 @@ LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
+ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqmiservices
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2606,6 +2625,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libril-qcril-hook-oem
@@ -2684,6 +2704,7 @@ LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
+ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libta
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2705,6 +2726,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libxml
