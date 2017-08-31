@@ -39,6 +39,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
+ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := mm-qcamera-daemon
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -49,6 +50,7 @@ LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := msm_irqbalance
@@ -182,6 +184,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/hw
 include $(BUILD_PREBUILT)
 
+ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := sensors.msm8994
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -203,6 +206,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libacdb-fts
@@ -248,6 +252,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
+ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libactuator_bu64291g
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -302,6 +307,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libadiertac
@@ -347,6 +353,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
+ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libchromatix_imx134_common
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -918,6 +925,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libconfigdb
@@ -985,6 +993,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
+ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libflash_pmic
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -995,6 +1004,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libidl
@@ -1007,6 +1017,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
+ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libjpegdhw
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -1039,6 +1050,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := liblqe
@@ -1073,6 +1085,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
+ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmmcamera2_c2d_module
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -1842,6 +1855,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmmjpeg
@@ -2206,6 +2220,7 @@ LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64/hw
 include $(BUILD_PREBUILT)
 
+ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := sensors.msm8994
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2227,6 +2242,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libacdb-fts
