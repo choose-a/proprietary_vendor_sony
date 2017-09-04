@@ -137,7 +137,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-sumire/proprietary/lib64/hw/sensors.msm8994.so:system/lib64/hw/sensors.msm8994.so \
     vendor/sony/kitakami-sumire/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
     vendor/sony/kitakami-sumire/proprietary/lib64/lib_asb_tee.so:system/lib64/lib_asb_tee.so \
-    vendor/sony/kitakami-sumire/proprietary/lib64/lib_get_secure_mode.so:system/lib64/lib_get_secure_mode.so \
     vendor/sony/kitakami-sumire/proprietary/lib64/libcamera_clientsemc.so:system/lib64/libcamera_clientsemc.so \
     vendor/sony/kitakami-sumire/proprietary/lib64/libcameralight.so:system/lib64/libcameralight.so \
     vendor/sony/kitakami-sumire/proprietary/lib64/libcameraextensionclient.so:system/lib64/libcameraextensionclient.so \
