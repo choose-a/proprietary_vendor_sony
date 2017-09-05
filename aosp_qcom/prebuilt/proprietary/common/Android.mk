@@ -28,6 +28,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := libfastcvadsp_stub
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -50,7 +51,6 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
-ifneq ($(USE_CAMERA_STUB),true)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmmcamera2_frame_algorithm
 LOCAL_MODULE_OWNER := Sony Mobile

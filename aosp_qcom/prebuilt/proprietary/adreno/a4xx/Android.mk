@@ -17,6 +17,7 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(SONY_AOSP),true)
 
 ifneq ($(filter kanuti kitakami, $(PRODUCT_PLATFORM)), )
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := a420_pfp
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -526,4 +527,5 @@ $(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib/egl && pushd $(PRODUCT_OUT)/sy
 $(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib64/egl && pushd $(PRODUCT_OUT)/system/vendor/lib64 > /dev/null && ln -s egl/libEGL_adreno.so libEGL_adreno.so && popd > /dev/null)
 endif
 
+endif
 endif

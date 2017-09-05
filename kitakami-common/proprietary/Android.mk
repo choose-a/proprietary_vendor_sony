@@ -622,6 +622,7 @@ LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
 
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := venus_b00
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -687,6 +688,7 @@ LOCAL_MODULE_SUFFIX := .mdt
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
+endif
 endif
 
 endif

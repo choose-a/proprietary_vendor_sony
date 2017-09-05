@@ -39,7 +39,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
-ifneq ($(USE_CAMERA_STUB),true)
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := mm-qcamera-daemon
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -107,6 +107,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := qseecomd
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -117,6 +118,7 @@ LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := rmt_storage
@@ -140,6 +142,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := sensors
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -150,6 +153,7 @@ LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ta_qmi_service
@@ -184,7 +188,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/hw
 include $(BUILD_PREBUILT)
 
-ifneq ($(USE_CAMERA_STUB),true)
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := sensors.msm8994
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -252,7 +256,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
-ifneq ($(USE_CAMERA_STUB),true)
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := libactuator_bu64291g
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -353,7 +357,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
-ifneq ($(USE_CAMERA_STUB),true)
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := libchromatix_imx134_common
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -949,6 +953,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := libdrmfs
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -970,6 +975,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libdsi_netctrl
@@ -993,7 +999,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
-ifneq ($(USE_CAMERA_STUB),true)
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := libflash_pmic
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -1017,7 +1023,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
-ifneq ($(USE_CAMERA_STUB),true)
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := libjpegdhw
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -1085,7 +1091,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
-ifneq ($(USE_CAMERA_STUB),true)
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmmcamera2_c2d_module
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -1855,7 +1861,6 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
-endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmmjpeg
@@ -1889,6 +1894,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libnetmgr
@@ -2044,6 +2050,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqomx_jpegdec
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2076,6 +2083,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libril-qc-qmi-1
@@ -2110,6 +2118,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := librpmb
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2142,6 +2151,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libsmemlog
@@ -2154,6 +2164,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := libssd
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2164,6 +2175,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libsystem_health_mon
@@ -2176,6 +2188,7 @@ LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := libta
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2186,6 +2199,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
@@ -2220,7 +2234,7 @@ LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64/hw
 include $(BUILD_PREBUILT)
 
-ifneq ($(USE_CAMERA_STUB),true)
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := sensors.msm8994
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2618,6 +2632,7 @@ LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := librpmb
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2650,6 +2665,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libsmemlog
@@ -2662,6 +2678,7 @@ LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := libssd
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2672,6 +2689,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libsystem_health_mon
@@ -2684,6 +2702,7 @@ LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
+ifneq (sumire, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := libta
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2694,6 +2713,7 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
