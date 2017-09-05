@@ -99,6 +99,18 @@ PRODUCT_PACKAGES += \
 	libsuntory_so_32 \
 	libsuntory_utils_so_32 \
 	libta_so_32 \
+	libaudiopreprocessing_so_32 \
+	libbundlewrapper_so_32 \
+	libdownmix_so_32 \
+	libeffectproxy_so_32 \
+	libldnhncr_so_32 \
+	libqcompostprocbundle_so_32 \
+	libqcomvisualizer_so_32 \
+	libqcomvoiceprocessing_so_32 \
+	libreverbwrapper_so_32 \
+	libsonypostprocbundle \
+	libsonysweffect \
+	libvisualizer_so_32 \
 	eglSubDriverAndroid_so_32 \
 	libEGL_adreno_so_32 \
 	libGLESv1_CM_adreno_so_32 \
@@ -316,6 +328,9 @@ PRODUCT_PACKAGES += \
 	libdrmclearkeyplugin_so_32 \
 	libwvdrmengine \
 	sensors_ssc_so_32 \
+	libqcbassboost \
+	libqcreverb \
+	libqcvirt \
 	sensors_msm8994_so_64 \
 	libMcClient_so_64 \
 	lib_asb_tee_so_64 \
@@ -338,6 +353,16 @@ PRODUCT_PACKAGES += \
 	libsuntory_utils_so_64 \
 	libta_so_64 \
 	libtee \
+	libaudiopreprocessing_so_64 \
+	libbundlewrapper_so_64 \
+	libdownmix_so_64 \
+	libeffectproxy_so_64 \
+	libldnhncr_so_64 \
+	libqcompostprocbundle_so_64 \
+	libqcomvisualizer_so_64 \
+	libqcomvoiceprocessing_so_64 \
+	libreverbwrapper_so_64 \
+	libvisualizer_so_64 \
 	eglSubDriverAndroid_so_64 \
 	libEGL_adreno_so_64 \
 	libGLESv1_CM_adreno_so_64 \

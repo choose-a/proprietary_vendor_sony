@@ -1071,6 +1071,160 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libaudiopreprocessing_so_32
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib/soundfx/libaudiopreprocessing.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libaudiopreprocessing
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libbundlewrapper_so_32
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib/soundfx/libbundlewrapper.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libbundlewrapper
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libdownmix_so_32
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib/soundfx/libdownmix.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libdownmix
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libeffectproxy_so_32
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib/soundfx/libeffectproxy.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libeffectproxy
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libldnhncr_so_32
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib/soundfx/libldnhncr.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libldnhncr
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqcompostprocbundle_so_32
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib/soundfx/libqcompostprocbundle.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libqcompostprocbundle
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqcomvisualizer_so_32
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib/soundfx/libqcomvisualizer.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libqcomvisualizer
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqcomvoiceprocessing_so_32
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib/soundfx/libqcomvoiceprocessing.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libqcomvoiceprocessing
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libreverbwrapper_so_32
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib/soundfx/libreverbwrapper.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libreverbwrapper
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libsonypostprocbundle
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib/soundfx/libsonypostprocbundle.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libsonysweffect
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib/soundfx/libsonysweffect.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libvisualizer_so_32
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib/soundfx/libvisualizer.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libvisualizer
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := eglSubDriverAndroid_so_32
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -3744,6 +3898,42 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libqcbassboost
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/soundfx/libqcbassboost.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqcreverb
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/soundfx/libqcreverb.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqcvirt
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/soundfx/libqcvirt.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := sensors_msm8994_so_64
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -4026,6 +4216,136 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
 LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libaudiopreprocessing_so_64
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib64/soundfx/libaudiopreprocessing.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libaudiopreprocessing
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libbundlewrapper_so_64
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib64/soundfx/libbundlewrapper.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libbundlewrapper
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libdownmix_so_64
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib64/soundfx/libdownmix.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libdownmix
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libeffectproxy_so_64
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib64/soundfx/libeffectproxy.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libeffectproxy
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libldnhncr_so_64
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib64/soundfx/libldnhncr.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libldnhncr
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqcompostprocbundle_so_64
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib64/soundfx/libqcompostprocbundle.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libqcompostprocbundle
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqcomvisualizer_so_64
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib64/soundfx/libqcomvisualizer.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libqcomvisualizer
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqcomvoiceprocessing_so_64
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib64/soundfx/libqcomvoiceprocessing.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libqcomvoiceprocessing
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libreverbwrapper_so_64
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib64/soundfx/libreverbwrapper.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libreverbwrapper
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libvisualizer_so_64
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib64/soundfx/libvisualizer.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libvisualizer
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
