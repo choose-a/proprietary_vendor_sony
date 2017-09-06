@@ -38,39 +38,39 @@ PRODUCT_PACKAGES += \
 	libexcal_stream_ctrl_plugin \
 	libdrmwvmplugin \
 	camera.msm8994 \
-	sensors_msm8994_so_32 \
-	libMcClient_so_32 \
-	lib_asb_tee_so_32 \
+	sensors.msm8994 \
+	libMcClient \
+	lib_asb_tee \
 	libcacao_client \
 	libcacao_common \
 	libcacao_imgproc \
 	libcacao_jpeg \
 	libcacao_service \
 	libcacao_system \
-	libcamera_clientsemc_so_32 \
-	libcameraextensionclient_so_32 \
-	libcameraextensionjni_so_32 \
-	libcameraextensionservice_so_32 \
-	libcameralight_so_32 \
+	libcamera_clientsemc \
+	libcameraextensionclient \
+	libcameraextensionjni \
+	libcameraextensionservice \
+	libcameralight \
 	libcammw \
-	libcredential-manager-service_so_32 \
-	libdeqp_somc_so_32 \
-	libdevice_security_so_32 \
+	libcredential-manager-service \
+	libdeqp_somc \
+	libdevice_security \
 	libexcal_core \
 	libexcal_legacy \
 	libexcal_pal \
 	libexcal_system \
-	libhdcprx_module_so_32 \
-	libidd_so_32 \
+	libhdcprx_module \
+	libidd \
 	libmm-qcamera \
 	libmmcamera_interface \
 	libmmjpeg_interface \
 	liboemcrypto \
-	libpin-cache_so_32 \
-	libplstorage_so_32 \
-	libprotobuf-c_so_32 \
+	libpin-cache \
+	libplstorage \
+	libprotobuf-c \
 	libqomx_core \
-	libscdclient_so_32 \
+	libscdclient \
 	libsomc_alfort \
 	libsomc_alfortrsc \
 	libsomc_bordeaux \
@@ -89,48 +89,48 @@ PRODUCT_PACKAGES += \
 	libsomc_raisinrsc \
 	libsomc_spica \
 	libsomc_spicarsc \
-	libsomc_thermal_so_32 \
+	libsomc_thermal \
 	libsomc_toppo \
 	libsomc_topporsc \
 	libsomc_yummy \
 	libsomc_yummyrsc \
 	libsony_fooddetect \
 	libsony_naruto \
-	libsuntory_so_32 \
-	libsuntory_utils_so_32 \
-	libta_so_32 \
-	libaudiopreprocessing_so_32 \
-	libbundlewrapper_so_32 \
-	libdownmix_so_32 \
-	libeffectproxy_so_32 \
-	libldnhncr_so_32 \
-	libqcompostprocbundle_so_32 \
-	libqcomvisualizer_so_32 \
-	libqcomvoiceprocessing_so_32 \
-	libreverbwrapper_so_32 \
+	libsuntory \
+	libsuntory_utils \
+	libta \
+	libaudiopreprocessing \
+	libbundlewrapper \
+	libdownmix \
+	libeffectproxy \
+	libldnhncr \
+	libqcompostprocbundle \
+	libqcomvisualizer \
+	libqcomvoiceprocessing \
+	libreverbwrapper \
 	libsonypostprocbundle \
 	libsonysweffect \
-	libvisualizer_so_32 \
-	eglSubDriverAndroid_so_32 \
-	libEGL_adreno_so_32 \
-	libGLESv1_CM_adreno_so_32 \
-	libGLESv2_adreno_so_32 \
-	libQTapGLES_so_32 \
-	libq3dtools_adreno_so_32 \
-	libq3dtools_esx_so_32 \
-	lib-imss_so_32 \
-	lib-imsvt_so_32 \
-	lib-imsxml_so_32 \
-	lib-sec-disp_so_32 \
-	libC2D2_so_32 \
-	libCB_so_32 \
-	libFIDOKeyProvisioning_so_32 \
-	libFidoCrypto_so_32 \
-	libFidoCryptoJNI_so_32 \
-	libOpenCL_so_32 \
-	libQSEEComAPI_so_32 \
-	libRSDriver_adreno_so_32 \
-	libStDrvInt_so_32 \
+	libvisualizer \
+	eglSubDriverAndroid \
+	libEGL_adreno \
+	libGLESv1_CM_adreno \
+	libGLESv2_adreno \
+	libQTapGLES \
+	libq3dtools_adreno \
+	libq3dtools_esx \
+	lib-imss \
+	lib-imsvt \
+	lib-imsxml \
+	lib-sec-disp \
+	libC2D2 \
+	libCB \
+	libFIDOKeyProvisioning \
+	libFidoCrypto \
+	libFidoCryptoJNI \
+	libOpenCL \
+	libQSEEComAPI \
+	libRSDriver_adreno \
+	libStDrvInt \
 	libWVStreamControlAPI_L1 \
 	libactuator_ad5823 \
 	libactuator_ad5823_camcorder \
@@ -160,9 +160,9 @@ PRODUCT_PACKAGES += \
 	libactuator_rohm_bu64243gwz_camcorder \
 	libactuator_rohm_bu64243gwz_camera \
 	libadm \
-	libadreno_utils_so_32 \
-	libavenhancements_so_32 \
-	libc2d30-a4xx_so_32 \
+	libadreno_utils \
+	libavenhancements \
+	libc2d30-a4xx \
 	libchromatix_s5k3m2xx_common \
 	libchromatix_s5k3m2xx_cpp_hfr_120 \
 	libchromatix_s5k3m2xx_cpp_hfr_60 \
@@ -181,26 +181,26 @@ PRODUCT_PACKAGES += \
 	libchromatix_s5k3m2xx_preview \
 	libchromatix_s5k3m2xx_snapshot \
 	libchromatix_s5k3m2xx_video_4k \
-	libdataitems_so_32 \
-	libdrmfs_so_32 \
-	libdrmtime_so_32 \
+	libdataitems \
+	libdrmfs \
+	libdrmtime \
 	libfastcvadsp_stub \
 	libfastcvopt \
 	libflash_pmic \
-	libgsl_so_32 \
+	libgsl \
 	libjpegdhw \
 	libjpegdmahw \
 	libjpegehw \
-	libllvm-glnext_so_32 \
-	libllvm-qcom_so_32 \
-	libmm-abl-oem_so_32 \
-	libmm-abl_so_32 \
-	libmm-als_so_32 \
-	libmm-color-convertor_so_32 \
-	libmm-disp-apis_so_32 \
-	libmm-hdcpmgr_so_32 \
-	libmm-qdcm_so_32 \
-	libmmQSM_so_32 \
+	libllvm-glnext \
+	libllvm-qcom \
+	libmm-abl-oem \
+	libmm-abl \
+	libmm-als \
+	libmm-color-convertor \
+	libmm-disp-apis \
+	libmm-hdcpmgr \
+	libmm-qdcm \
+	libmmQSM \
 	libmmcamera2_c2d_module \
 	libmmcamera2_cpp_module \
 	libmmcamera2_frame_algorithm \
@@ -210,10 +210,10 @@ PRODUCT_PACKAGES += \
 	libmmcamera2_isp_modules \
 	libmmcamera2_pp_buf_mgr \
 	libmmcamera2_pproc_modules \
-	libmmcamera2_q3a_core_so_32 \
-	libmmcamera2_sensor_debug_so_32 \
+	libmmcamera2_q3a_core \
+	libmmcamera2_sensor_debug \
 	libmmcamera2_sensor_modules \
-	libmmcamera2_stats_algorithm_so_32 \
+	libmmcamera2_stats_algorithm \
 	libmmcamera2_stats_modules \
 	libmmcamera2_vpe_module \
 	libmmcamera2_wnr_module \
@@ -285,154 +285,154 @@ PRODUCT_PACKAGES += \
 	libmmcamera_tuning \
 	libmmcamera_ubifocus_lib \
 	libmmcamera_vpu_module \
-	libmmhttpstack_so_32 \
-	libmmiipstreammmihttp_so_32 \
+	libmmhttpstack \
+	libmmiipstreammmihttp \
 	libmmipl \
-	libmmipstreamaal_so_32 \
-	libmmipstreamnetwork_so_32 \
-	libmmipstreamsourcehttp_so_32 \
-	libmmipstreamutils_so_32 \
+	libmmipstreamaal \
+	libmmipstreamnetwork \
+	libmmipstreamsourcehttp \
+	libmmipstreamutils \
 	libmmjpeg \
-	libmmosal_so_32 \
-	libmmparser_so_32 \
-	libmmparser_lite_so_32 \
+	libmmosal \
+	libmmparser \
+	libmmparser_lite \
 	libmmqjpeg_codec \
 	libmmqjpegdma \
-	libmmrtpdecoder_so_32 \
-	libmmrtpencoder_so_32 \
-	libmmwfdinterface_so_32 \
-	libmmwfdsinkinterface_so_32 \
-	libmmwfdsrcinterface_so_32 \
+	libmmrtpdecoder \
+	libmmrtpencoder \
+	libmmwfdinterface \
+	libmmwfdsinkinterface \
+	libmmwfdsrcinterface \
 	liboemcamera \
 	libois_lc898122 \
-	libpreload-me_so_32 \
+	libpreload-me \
 	libqomx_jpegdec \
 	libqomx_jpegenc \
 	libqomx_jpegenc_pipe \
 	libqti-at \
 	libqti-gt \
-	libqti-perfd-client_so_32 \
-	libqti_performance_so_32 \
-	librpmb_so_32 \
-	librs_adreno_so_32 \
-	librs_adreno_sha1_so_32 \
-	libscale_so_32 \
-	libsecureui_so_32 \
-	libsecureui_svcsock_so_32 \
-	libsensor1_so_32 \
-	libsensor_reg_so_32 \
-	libssd_so_32 \
-	libtzdrmgenprov_so_32 \
+	libqti-perfd-client \
+	libqti_performance \
+	librpmb \
+	librs_adreno \
+	librs_adreno_sha1 \
+	libscale \
+	libsecureui \
+	libsecureui_svcsock \
+	libsensor1 \
+	libsensor_reg \
+	libssd \
+	libtzdrmgenprov \
 	libwvdrm_L1 \
 	libwvm \
-	libdrmclearkeyplugin_so_32 \
+	libdrmclearkeyplugin \
 	libwvdrmengine \
-	sensors_ssc_so_32 \
+	sensors.ssc \
 	libqcbassboost \
 	libqcreverb \
 	libqcvirt \
-	sensors_msm8994_so_64 \
-	libMcClient_so_64 \
-	lib_asb_tee_so_64 \
-	libcamera_clientsemc_so_64 \
-	libcameraextensionclient_so_64 \
-	libcameraextensionjni_so_64 \
-	libcameraextensionservice_so_64 \
-	libcameralight_so_64 \
-	libcredential-manager-service_so_64 \
-	libdeqp_somc_so_64 \
-	libdevice_security_so_64 \
-	libhdcprx_module_so_64 \
-	libidd_so_64 \
-	libpin-cache_so_64 \
-	libplstorage_so_64 \
-	libprotobuf-c_so_64 \
-	libscdclient_so_64 \
-	libsomc_thermal_so_64 \
-	libsuntory_so_64 \
-	libsuntory_utils_so_64 \
-	libta_so_64 \
+	sensors.msm8994 \
+	libMcClient \
+	lib_asb_tee \
+	libcamera_clientsemc \
+	libcameraextensionclient \
+	libcameraextensionjni \
+	libcameraextensionservice \
+	libcameralight \
+	libcredential-manager-service \
+	libdeqp_somc \
+	libdevice_security \
+	libhdcprx_module \
+	libidd \
+	libpin-cache \
+	libplstorage \
+	libprotobuf-c \
+	libscdclient \
+	libsomc_thermal \
+	libsuntory \
+	libsuntory_utils \
+	libta \
 	libtee \
-	libaudiopreprocessing_so_64 \
-	libbundlewrapper_so_64 \
-	libdownmix_so_64 \
-	libeffectproxy_so_64 \
-	libldnhncr_so_64 \
-	libqcompostprocbundle_so_64 \
-	libqcomvisualizer_so_64 \
-	libqcomvoiceprocessing_so_64 \
-	libreverbwrapper_so_64 \
-	libvisualizer_so_64 \
-	eglSubDriverAndroid_so_64 \
-	libEGL_adreno_so_64 \
-	libGLESv1_CM_adreno_so_64 \
-	libGLESv2_adreno_so_64 \
-	libQTapGLES_so_64 \
-	libq3dtools_adreno_so_64 \
-	libq3dtools_esx_so_64 \
-	lib-imss_so_64 \
-	lib-imsvt_so_64 \
-	lib-imsxml_so_64 \
+	libaudiopreprocessing \
+	libbundlewrapper \
+	libdownmix \
+	libeffectproxy \
+	libldnhncr \
+	libqcompostprocbundle \
+	libqcomvisualizer \
+	libqcomvoiceprocessing \
+	libreverbwrapper \
+	libvisualizer \
+	eglSubDriverAndroid \
+	libEGL_adreno \
+	libGLESv1_CM_adreno \
+	libGLESv2_adreno \
+	libQTapGLES \
+	libq3dtools_adreno \
+	libq3dtools_esx \
+	lib-imss \
+	lib-imsvt \
+	lib-imsxml \
 	lib-preload64 \
-	lib-sec-disp_so_64 \
-	libC2D2_so_64 \
-	libCB_so_64 \
-	libFIDOKeyProvisioning_so_64 \
-	libFidoCrypto_so_64 \
-	libFidoCryptoJNI_so_64 \
-	libOpenCL_so_64 \
-	libQSEEComAPI_so_64 \
-	libRSDriver_adreno_so_64 \
-	libStDrvInt_so_64 \
-	libadreno_utils_so_64 \
-	libavenhancements_so_64 \
-	libc2d30-a4xx_so_64 \
-	libdataitems_so_64 \
-	libdrmfs_so_64 \
-	libdrmtime_so_64 \
-	libgsl_so_64 \
-	libllvm-glnext_so_64 \
-	libllvm-qcom_so_64 \
-	libmm-abl-oem_so_64 \
-	libmm-abl_so_64 \
-	libmm-als_so_64 \
-	libmm-color-convertor_so_64 \
-	libmm-disp-apis_so_64 \
-	libmm-hdcpmgr_so_64 \
-	libmm-qdcm_so_64 \
-	libmmQSM_so_64 \
-	libmmcamera2_q3a_core_so_64 \
-	libmmcamera2_sensor_debug_so_64 \
-	libmmcamera2_stats_algorithm_so_64 \
-	libmmhttpstack_so_64 \
-	libmmiipstreammmihttp_so_64 \
-	libmmipstreamaal_so_64 \
-	libmmipstreamnetwork_so_64 \
-	libmmipstreamsourcehttp_so_64 \
-	libmmipstreamutils_so_64 \
-	libmmosal_so_64 \
-	libmmparser_so_64 \
-	libmmparser_lite_so_64 \
-	libmmrtpdecoder_so_64 \
-	libmmrtpencoder_so_64 \
-	libmmwfdinterface_so_64 \
-	libmmwfdsinkinterface_so_64 \
-	libmmwfdsrcinterface_so_64 \
-	libpreload-me_so_64 \
-	libqti-perfd-client_so_64 \
-	libqti_performance_so_64 \
-	librpmb_so_64 \
-	librs_adreno_so_64 \
-	librs_adreno_sha1_so_64 \
-	libscale_so_64 \
-	libsecureui_so_64 \
-	libsecureui_svcsock_so_64 \
-	libsensor1_so_64 \
-	libsensor_reg_so_64 \
-	libssd_so_64 \
-	libtzdrmgenprov_so_64 \
-	libdrmclearkeyplugin_so_64 \
-	sensors_ssc_so_64 \
+	lib-sec-disp \
+	libC2D2 \
+	libCB \
+	libFIDOKeyProvisioning \
+	libFidoCrypto \
+	libFidoCryptoJNI \
+	libOpenCL \
+	libQSEEComAPI \
+	libRSDriver_adreno \
+	libStDrvInt \
+	libadreno_utils \
+	libavenhancements \
+	libc2d30-a4xx \
+	libdataitems \
+	libdrmfs \
+	libdrmtime \
+	libgsl \
+	libllvm-glnext \
+	libllvm-qcom \
+	libmm-abl-oem \
+	libmm-abl \
+	libmm-als \
+	libmm-color-convertor \
+	libmm-disp-apis \
+	libmm-hdcpmgr \
+	libmm-qdcm \
+	libmmQSM \
+	libmmcamera2_q3a_core \
+	libmmcamera2_sensor_debug \
+	libmmcamera2_stats_algorithm \
+	libmmhttpstack \
+	libmmiipstreammmihttp \
+	libmmipstreamaal \
+	libmmipstreamnetwork \
+	libmmipstreamsourcehttp \
+	libmmipstreamutils \
+	libmmosal \
+	libmmparser \
+	libmmparser_lite \
+	libmmrtpdecoder \
+	libmmrtpencoder \
+	libmmwfdinterface \
+	libmmwfdsinkinterface \
+	libmmwfdsrcinterface \
+	libpreload-me \
+	libqti-perfd-client \
+	libqti_performance \
+	librpmb \
+	librs_adreno \
+	librs_adreno_sha1 \
+	libscale \
+	libsecureui \
+	libsecureui_svcsock \
+	libsensor1 \
+	libsensor_reg \
+	libssd \
+	libtzdrmgenprov \
+	libdrmclearkeyplugin \
+	sensors.ssc \
 	MTP_Bluetooth_cal \
 	MTP_General_cal \
 	MTP_Global_cal \
@@ -453,12 +453,12 @@ PRODUCT_PACKAGES += \
 	cpp_firmware_v1_4_0 \
 	cpp_firmware_v1_6_0 \
 	cpp_firmware_v1_8_0 \
-	venus_b00 \
-	venus_b01 \
-	venus_b02 \
-	venus_b03 \
-	venus_b04 \
-	venus_mdt \
+	venus \
+	venus \
+	venus \
+	venus \
+	venus \
+	venus \
 	flashled_calc_parameters \
 	hals \
 	sensor_def_qcomdev \
@@ -470,262 +470,262 @@ PRODUCT_PACKAGES += \
 	sensors \
 	taimport \
 	updatemiscta \
-	LGI05BN0_color_ctrl_dat \
-	LGI05BN0_dataflow_dat \
-	LGI05BN0_debug_mgr_dat \
-	LGI05BN0_exposure_ctrl_dat \
-	LGI05BN0_exposure_ctrl_diagram_dat \
-	LGI05BN0_exposure_ctrl_gamma_dat \
-	LGI05BN0_face_detector_dat \
-	LGI05BN0_flicker_detector_dat \
-	LGI05BN0_focus_stats_conv_dat \
-	LGI05BN0_food_comp_yummy_dat \
-	LGI05BN0_food_detector_dat \
-	LGI05BN0_hal_ctrl_dat \
-	LGI05BN0_hal_ctrl_platform_dat \
-	LGI05BN0_hal_ctrl_platform_abf_dat \
-	LGI05BN0_hal_ctrl_platform_asf_lin_dat \
-	LGI05BN0_hal_ctrl_platform_asf_stp_dat \
-	LGI05BN0_hal_ctrl_platform_gic_dat \
-	LGI05BN0_hdr_comp_dat \
-	LGI05BN0_idt_ctrl_dat \
-	LGI05BN0_image_conv_dat \
-	LGI05BN0_image_conv_canele_dat \
-	LGI05BN0_image_conv_marble_dat \
-	LGI05BN0_image_conv_raisin_dat \
-	LGI05BN0_image_conv_spica_dat \
-	LGI05BN0_jpeg_enc_dat \
-	LGI05BN0_lens_ctrl_dat \
-	LGI05BN0_motion_estimation_dat \
-	LGI05BN0_multiframe_nr_dat \
-	LGI05BN0_multiframe_nr_melonpan_dat \
-	LGI05BN0_multiframe_nr_mugichoco_dat \
-	LGI05BN0_multiframe_nr_toppo_dat \
-	LGI05BN0_object_tracker_dat \
-	LGI05BN0_scene_detector_dat \
-	LGI05BN0_snapshot_ctrl_dat \
+	color_ctrl \
+	dataflow \
+	debug_mgr \
+	exposure_ctrl \
+	exposure_ctrl_diagram \
+	exposure_ctrl_gamma \
+	face_detector \
+	flicker_detector \
+	focus_stats_conv \
+	food_comp_yummy \
+	food_detector \
+	hal_ctrl \
+	hal_ctrl_platform \
+	hal_ctrl_platform_abf \
+	hal_ctrl_platform_asf_lin \
+	hal_ctrl_platform_asf_stp \
+	hal_ctrl_platform_gic \
+	hdr_comp \
+	idt_ctrl \
+	image_conv \
+	image_conv_canele \
+	image_conv_marble \
+	image_conv_raisin \
+	image_conv_spica \
+	jpeg_enc \
+	lens_ctrl \
+	motion_estimation \
+	multiframe_nr \
+	multiframe_nr_melonpan \
+	multiframe_nr_mugichoco \
+	multiframe_nr_toppo \
+	object_tracker \
+	scene_detector \
+	snapshot_ctrl \
 	LGI05BN0_IMX241 \
-	SEM05BN0_color_ctrl_dat \
-	SEM05BN0_dataflow_dat \
-	SEM05BN0_debug_mgr_dat \
-	SEM05BN0_exposure_ctrl_dat \
-	SEM05BN0_exposure_ctrl_diagram_dat \
-	SEM05BN0_exposure_ctrl_gamma_dat \
-	SEM05BN0_face_detector_dat \
-	SEM05BN0_flicker_detector_dat \
-	SEM05BN0_focus_stats_conv_dat \
-	SEM05BN0_food_comp_yummy_dat \
-	SEM05BN0_food_detector_dat \
-	SEM05BN0_hal_ctrl_dat \
-	SEM05BN0_hal_ctrl_platform_dat \
-	SEM05BN0_hal_ctrl_platform_abf_dat \
-	SEM05BN0_hal_ctrl_platform_asf_lin_dat \
-	SEM05BN0_hal_ctrl_platform_asf_stp_dat \
-	SEM05BN0_hal_ctrl_platform_gic_dat \
-	SEM05BN0_hdr_comp_dat \
-	SEM05BN0_idt_ctrl_dat \
-	SEM05BN0_image_conv_dat \
-	SEM05BN0_image_conv_canele_dat \
-	SEM05BN0_image_conv_marble_dat \
-	SEM05BN0_image_conv_raisin_dat \
-	SEM05BN0_image_conv_spica_dat \
-	SEM05BN0_jpeg_enc_dat \
-	SEM05BN0_lens_ctrl_dat \
-	SEM05BN0_motion_estimation_dat \
-	SEM05BN0_multiframe_nr_dat \
-	SEM05BN0_multiframe_nr_melonpan_dat \
-	SEM05BN0_multiframe_nr_mugichoco_dat \
-	SEM05BN0_multiframe_nr_toppo_dat \
-	SEM05BN0_object_tracker_dat \
-	SEM05BN0_scene_detector_dat \
-	SEM05BN0_snapshot_ctrl_dat \
+	color_ctrl \
+	dataflow \
+	debug_mgr \
+	exposure_ctrl \
+	exposure_ctrl_diagram \
+	exposure_ctrl_gamma \
+	face_detector \
+	flicker_detector \
+	focus_stats_conv \
+	food_comp_yummy \
+	food_detector \
+	hal_ctrl \
+	hal_ctrl_platform \
+	hal_ctrl_platform_abf \
+	hal_ctrl_platform_asf_lin \
+	hal_ctrl_platform_asf_stp \
+	hal_ctrl_platform_gic \
+	hdr_comp \
+	idt_ctrl \
+	image_conv \
+	image_conv_canele \
+	image_conv_marble \
+	image_conv_raisin \
+	image_conv_spica \
+	jpeg_enc \
+	lens_ctrl \
+	motion_estimation \
+	multiframe_nr \
+	multiframe_nr_melonpan \
+	multiframe_nr_mugichoco \
+	multiframe_nr_toppo \
+	object_tracker \
+	scene_detector \
+	snapshot_ctrl \
 	SEM05BN0_IMX241 \
-	SOI25BS0_color_ctrl_dat \
-	SOI25BS0_dataflow_dat \
-	SOI25BS0_debug_mgr_dat \
-	SOI25BS0_exposure_ctrl_dat \
-	SOI25BS0_exposure_ctrl_diagram_dat \
-	SOI25BS0_exposure_ctrl_gamma_dat \
-	SOI25BS0_face_detector_dat \
-	SOI25BS0_flicker_detector_dat \
-	SOI25BS0_focus_stats_conv_dat \
-	SOI25BS0_food_comp_yummy_dat \
-	SOI25BS0_food_detector_dat \
-	SOI25BS0_hal_ctrl_dat \
-	SOI25BS0_hal_ctrl_platform_dat \
-	SOI25BS0_hal_ctrl_platform_abf_dat \
-	SOI25BS0_hal_ctrl_platform_asf_lin_dat \
-	SOI25BS0_hal_ctrl_platform_asf_stp_dat \
-	SOI25BS0_hal_ctrl_platform_gic_dat \
-	SOI25BS0_hdr_comp_dat \
-	SOI25BS0_idt_ctrl_dat \
-	SOI25BS0_image_conv_dat \
-	SOI25BS0_image_conv_canele_dat \
-	SOI25BS0_image_conv_marble_dat \
-	SOI25BS0_image_conv_raisin_dat \
-	SOI25BS0_image_conv_spica_dat \
-	SOI25BS0_jpeg_enc_dat \
-	SOI25BS0_lens_ctrl_dat \
-	SOI25BS0_motion_estimation_dat \
-	SOI25BS0_multiframe_nr_dat \
-	SOI25BS0_multiframe_nr_melonpan_dat \
-	SOI25BS0_multiframe_nr_mugichoco_dat \
-	SOI25BS0_multiframe_nr_toppo_dat \
-	SOI25BS0_object_tracker_dat \
-	SOI25BS0_scene_detector_dat \
-	SOI25BS0_snapshot_ctrl_dat \
+	color_ctrl \
+	dataflow \
+	debug_mgr \
+	exposure_ctrl \
+	exposure_ctrl_diagram \
+	exposure_ctrl_gamma \
+	face_detector \
+	flicker_detector \
+	focus_stats_conv \
+	food_comp_yummy \
+	food_detector \
+	hal_ctrl \
+	hal_ctrl_platform \
+	hal_ctrl_platform_abf \
+	hal_ctrl_platform_asf_lin \
+	hal_ctrl_platform_asf_stp \
+	hal_ctrl_platform_gic \
+	hdr_comp \
+	idt_ctrl \
+	image_conv \
+	image_conv_canele \
+	image_conv_marble \
+	image_conv_raisin \
+	image_conv_spica \
+	jpeg_enc \
+	lens_ctrl \
+	motion_estimation \
+	multiframe_nr \
+	multiframe_nr_melonpan \
+	multiframe_nr_mugichoco \
+	multiframe_nr_toppo \
+	object_tracker \
+	scene_detector \
+	snapshot_ctrl \
 	SOI25BS0_BU64747GWZ \
 	SOI25BS0_BU64747GWZ_XCF \
 	SOI25BS0_BU64747GWZ_XFW \
 	SOI25BS0_IMX300 \
-	SOI25BS1_color_ctrl_dat \
-	SOI25BS1_dataflow_dat \
-	SOI25BS1_debug_mgr_dat \
-	SOI25BS1_exposure_ctrl_dat \
-	SOI25BS1_exposure_ctrl_diagram_dat \
-	SOI25BS1_exposure_ctrl_gamma_dat \
-	SOI25BS1_face_detector_dat \
-	SOI25BS1_flicker_detector_dat \
-	SOI25BS1_focus_stats_conv_dat \
-	SOI25BS1_food_comp_yummy_dat \
-	SOI25BS1_food_detector_dat \
-	SOI25BS1_hal_ctrl_dat \
-	SOI25BS1_hal_ctrl_platform_dat \
-	SOI25BS1_hal_ctrl_platform_abf_dat \
-	SOI25BS1_hal_ctrl_platform_asf_lin_dat \
-	SOI25BS1_hal_ctrl_platform_asf_stp_dat \
-	SOI25BS1_hal_ctrl_platform_gic_dat \
-	SOI25BS1_hdr_comp_dat \
-	SOI25BS1_idt_ctrl_dat \
-	SOI25BS1_image_conv_dat \
-	SOI25BS1_image_conv_canele_dat \
-	SOI25BS1_image_conv_marble_dat \
-	SOI25BS1_image_conv_raisin_dat \
-	SOI25BS1_image_conv_spica_dat \
-	SOI25BS1_jpeg_enc_dat \
-	SOI25BS1_lens_ctrl_dat \
-	SOI25BS1_motion_estimation_dat \
-	SOI25BS1_multiframe_nr_dat \
-	SOI25BS1_multiframe_nr_melonpan_dat \
-	SOI25BS1_multiframe_nr_mugichoco_dat \
-	SOI25BS1_multiframe_nr_toppo_dat \
-	SOI25BS1_object_tracker_dat \
-	SOI25BS1_scene_detector_dat \
-	SOI25BS1_snapshot_ctrl_dat \
+	color_ctrl \
+	dataflow \
+	debug_mgr \
+	exposure_ctrl \
+	exposure_ctrl_diagram \
+	exposure_ctrl_gamma \
+	face_detector \
+	flicker_detector \
+	focus_stats_conv \
+	food_comp_yummy \
+	food_detector \
+	hal_ctrl \
+	hal_ctrl_platform \
+	hal_ctrl_platform_abf \
+	hal_ctrl_platform_asf_lin \
+	hal_ctrl_platform_asf_stp \
+	hal_ctrl_platform_gic \
+	hdr_comp \
+	idt_ctrl \
+	image_conv \
+	image_conv_canele \
+	image_conv_marble \
+	image_conv_raisin \
+	image_conv_spica \
+	jpeg_enc \
+	lens_ctrl \
+	motion_estimation \
+	multiframe_nr \
+	multiframe_nr_melonpan \
+	multiframe_nr_mugichoco \
+	multiframe_nr_toppo \
+	object_tracker \
+	scene_detector \
+	snapshot_ctrl \
 	SOI25BS1_BU64747GWZ \
 	SOI25BS1_BU64747GWZ_XCF \
 	SOI25BS1_BU64747GWZ_XFW \
 	SOI25BS1_IMX300 \
-	SOI25BS2_color_ctrl_dat \
-	SOI25BS2_dataflow_dat \
-	SOI25BS2_debug_mgr_dat \
-	SOI25BS2_exposure_ctrl_dat \
-	SOI25BS2_exposure_ctrl_diagram_dat \
-	SOI25BS2_exposure_ctrl_gamma_dat \
-	SOI25BS2_face_detector_dat \
-	SOI25BS2_flicker_detector_dat \
-	SOI25BS2_focus_stats_conv_dat \
-	SOI25BS2_food_comp_yummy_dat \
-	SOI25BS2_food_detector_dat \
-	SOI25BS2_hal_ctrl_dat \
-	SOI25BS2_hal_ctrl_platform_dat \
-	SOI25BS2_hal_ctrl_platform_abf_dat \
-	SOI25BS2_hal_ctrl_platform_asf_lin_dat \
-	SOI25BS2_hal_ctrl_platform_asf_stp_dat \
-	SOI25BS2_hal_ctrl_platform_gic_dat \
-	SOI25BS2_hdr_comp_dat \
-	SOI25BS2_idt_ctrl_dat \
-	SOI25BS2_image_conv_dat \
-	SOI25BS2_image_conv_canele_dat \
-	SOI25BS2_image_conv_marble_dat \
-	SOI25BS2_image_conv_raisin_dat \
-	SOI25BS2_image_conv_spica_dat \
-	SOI25BS2_jpeg_enc_dat \
-	SOI25BS2_lens_ctrl_dat \
-	SOI25BS2_motion_estimation_dat \
-	SOI25BS2_multiframe_nr_dat \
-	SOI25BS2_multiframe_nr_melonpan_dat \
-	SOI25BS2_multiframe_nr_mugichoco_dat \
-	SOI25BS2_multiframe_nr_toppo_dat \
-	SOI25BS2_object_tracker_dat \
-	SOI25BS2_scene_detector_dat \
-	SOI25BS2_snapshot_ctrl_dat \
+	color_ctrl \
+	dataflow \
+	debug_mgr \
+	exposure_ctrl \
+	exposure_ctrl_diagram \
+	exposure_ctrl_gamma \
+	face_detector \
+	flicker_detector \
+	focus_stats_conv \
+	food_comp_yummy \
+	food_detector \
+	hal_ctrl \
+	hal_ctrl_platform \
+	hal_ctrl_platform_abf \
+	hal_ctrl_platform_asf_lin \
+	hal_ctrl_platform_asf_stp \
+	hal_ctrl_platform_gic \
+	hdr_comp \
+	idt_ctrl \
+	image_conv \
+	image_conv_canele \
+	image_conv_marble \
+	image_conv_raisin \
+	image_conv_spica \
+	jpeg_enc \
+	lens_ctrl \
+	motion_estimation \
+	multiframe_nr \
+	multiframe_nr_melonpan \
+	multiframe_nr_mugichoco \
+	multiframe_nr_toppo \
+	object_tracker \
+	scene_detector \
+	snapshot_ctrl \
 	SOI25BS2_BU64747GWZ \
 	SOI25BS2_BU64747GWZ_XCF \
 	SOI25BS2_BU64747GWZ_XFW \
 	SOI25BS2_IMX300 \
-	SOI25BS3_color_ctrl_dat \
-	SOI25BS3_dataflow_dat \
-	SOI25BS3_debug_mgr_dat \
-	SOI25BS3_exposure_ctrl_dat \
-	SOI25BS3_exposure_ctrl_diagram_dat \
-	SOI25BS3_exposure_ctrl_gamma_dat \
-	SOI25BS3_face_detector_dat \
-	SOI25BS3_flicker_detector_dat \
-	SOI25BS3_focus_stats_conv_dat \
-	SOI25BS3_food_comp_yummy_dat \
-	SOI25BS3_food_detector_dat \
-	SOI25BS3_hal_ctrl_dat \
-	SOI25BS3_hal_ctrl_platform_dat \
-	SOI25BS3_hal_ctrl_platform_abf_dat \
-	SOI25BS3_hal_ctrl_platform_asf_lin_dat \
-	SOI25BS3_hal_ctrl_platform_asf_stp_dat \
-	SOI25BS3_hal_ctrl_platform_gic_dat \
-	SOI25BS3_hdr_comp_dat \
-	SOI25BS3_idt_ctrl_dat \
-	SOI25BS3_image_conv_dat \
-	SOI25BS3_image_conv_canele_dat \
-	SOI25BS3_image_conv_marble_dat \
-	SOI25BS3_image_conv_raisin_dat \
-	SOI25BS3_image_conv_spica_dat \
-	SOI25BS3_jpeg_enc_dat \
-	SOI25BS3_lens_ctrl_dat \
-	SOI25BS3_motion_estimation_dat \
-	SOI25BS3_multiframe_nr_dat \
-	SOI25BS3_multiframe_nr_melonpan_dat \
-	SOI25BS3_multiframe_nr_mugichoco_dat \
-	SOI25BS3_multiframe_nr_toppo_dat \
-	SOI25BS3_object_tracker_dat \
-	SOI25BS3_scene_detector_dat \
-	SOI25BS3_snapshot_ctrl_dat \
+	color_ctrl \
+	dataflow \
+	debug_mgr \
+	exposure_ctrl \
+	exposure_ctrl_diagram \
+	exposure_ctrl_gamma \
+	face_detector \
+	flicker_detector \
+	focus_stats_conv \
+	food_comp_yummy \
+	food_detector \
+	hal_ctrl \
+	hal_ctrl_platform \
+	hal_ctrl_platform_abf \
+	hal_ctrl_platform_asf_lin \
+	hal_ctrl_platform_asf_stp \
+	hal_ctrl_platform_gic \
+	hdr_comp \
+	idt_ctrl \
+	image_conv \
+	image_conv_canele \
+	image_conv_marble \
+	image_conv_raisin \
+	image_conv_spica \
+	jpeg_enc \
+	lens_ctrl \
+	motion_estimation \
+	multiframe_nr \
+	multiframe_nr_melonpan \
+	multiframe_nr_mugichoco \
+	multiframe_nr_toppo \
+	object_tracker \
+	scene_detector \
+	snapshot_ctrl \
 	SOI25BS3_BU64747GWZ \
 	SOI25BS3_BU64747GWZ_XCF \
 	SOI25BS3_BU64747GWZ_XFW \
 	SOI25BS3_IMX300 \
-	SOI25BS4_color_ctrl_dat \
-	SOI25BS4_dataflow_dat \
-	SOI25BS4_debug_mgr_dat \
-	SOI25BS4_exposure_ctrl_dat \
-	SOI25BS4_exposure_ctrl_diagram_dat \
-	SOI25BS4_exposure_ctrl_gamma_dat \
-	SOI25BS4_face_detector_dat \
-	SOI25BS4_flicker_detector_dat \
-	SOI25BS4_focus_stats_conv_dat \
-	SOI25BS4_food_comp_yummy_dat \
-	SOI25BS4_food_detector_dat \
-	SOI25BS4_hal_ctrl_dat \
-	SOI25BS4_hal_ctrl_platform_dat \
-	SOI25BS4_hal_ctrl_platform_abf_dat \
-	SOI25BS4_hal_ctrl_platform_asf_lin_dat \
-	SOI25BS4_hal_ctrl_platform_asf_stp_dat \
-	SOI25BS4_hal_ctrl_platform_gic_dat \
-	SOI25BS4_hdr_comp_dat \
-	SOI25BS4_idt_ctrl_dat \
-	SOI25BS4_image_conv_dat \
-	SOI25BS4_image_conv_canele_dat \
-	SOI25BS4_image_conv_marble_dat \
-	SOI25BS4_image_conv_raisin_dat \
-	SOI25BS4_image_conv_spica_dat \
-	SOI25BS4_jpeg_enc_dat \
-	SOI25BS4_lens_ctrl_dat \
-	SOI25BS4_motion_estimation_dat \
-	SOI25BS4_multiframe_nr_dat \
-	SOI25BS4_multiframe_nr_melonpan_dat \
-	SOI25BS4_multiframe_nr_mugichoco_dat \
-	SOI25BS4_multiframe_nr_toppo_dat \
-	SOI25BS4_object_tracker_dat \
-	SOI25BS4_scene_detector_dat \
-	SOI25BS4_snapshot_ctrl_dat \
+	color_ctrl \
+	dataflow \
+	debug_mgr \
+	exposure_ctrl \
+	exposure_ctrl_diagram \
+	exposure_ctrl_gamma \
+	face_detector \
+	flicker_detector \
+	focus_stats_conv \
+	food_comp_yummy \
+	food_detector \
+	hal_ctrl \
+	hal_ctrl_platform \
+	hal_ctrl_platform_abf \
+	hal_ctrl_platform_asf_lin \
+	hal_ctrl_platform_asf_stp \
+	hal_ctrl_platform_gic \
+	hdr_comp \
+	idt_ctrl \
+	image_conv \
+	image_conv_canele \
+	image_conv_marble \
+	image_conv_raisin \
+	image_conv_spica \
+	jpeg_enc \
+	lens_ctrl \
+	motion_estimation \
+	multiframe_nr \
+	multiframe_nr_melonpan \
+	multiframe_nr_mugichoco \
+	multiframe_nr_toppo \
+	object_tracker \
+	scene_detector \
+	snapshot_ctrl \
 	SOI25BS4_BU64747GWZ \
 	SOI25BS4_BU64747GWZ_XCF \
 	SOI25BS4_BU64747GWZ_XFW \

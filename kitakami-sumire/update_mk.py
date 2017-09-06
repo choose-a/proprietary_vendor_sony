@@ -115,20 +115,6 @@ def generate_module(f, owner, modclass, target_base, multilib):
 #
 # turn a mod into a text represenatation that define that module
 #
-def module_definition_for_colision(mod):
-    module_template = Template(
-    '''include $$(CLEAR_VARS)
-LOCAL_MODULE := $module
-LOCAL_MODULE_SUFFIX := $suffix
-LOCAL_MODULE_OWNER := $owner
-LOCAL_SRC_FILES := $files
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := $stem
-LOCAL_MODULE_CLASS := $class
-LOCAL_MODULE_PATH := $target_base/$target_path
-include $$(BUILD_PREBUILT)''')
-    return module_template.substitute(mod)
-
 def module_definition(mod):
     module_template = Template(
     '''include $$(CLEAR_VARS)
@@ -156,10 +142,6 @@ for module in module_list:
 definitions = []
 packages = []
 for module in module_list:
-    if module_count[module['stem']] > 1:
-        definitions.append(module_definition_for_colision(module))
-        packages.append(module['module'])
-    else:
         definitions.append(module_definition(module))
         packages.append(module['stem'])
 

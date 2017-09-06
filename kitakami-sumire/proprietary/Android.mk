@@ -318,12 +318,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/hw
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := sensors_msm8994_so_32
+LOCAL_MODULE := sensors.msm8994
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/hw/sensors.msm8994.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := sensors.msm8994
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -331,12 +330,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/hw
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libMcClient_so_32
+LOCAL_MODULE := libMcClient
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libMcClient.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libMcClient
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -344,12 +342,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := lib_asb_tee_so_32
+LOCAL_MODULE := lib_asb_tee
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/lib_asb_tee.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := lib_asb_tee
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -429,12 +426,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libcamera_clientsemc_so_32
+LOCAL_MODULE := libcamera_clientsemc
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libcamera_clientsemc.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libcamera_clientsemc
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -442,12 +438,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libcameraextensionclient_so_32
+LOCAL_MODULE := libcameraextensionclient
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libcameraextensionclient.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libcameraextensionclient
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -455,12 +450,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libcameraextensionjni_so_32
+LOCAL_MODULE := libcameraextensionjni
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libcameraextensionjni.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libcameraextensionjni
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -468,12 +462,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libcameraextensionservice_so_32
+LOCAL_MODULE := libcameraextensionservice
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libcameraextensionservice.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libcameraextensionservice
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -481,12 +474,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libcameralight_so_32
+LOCAL_MODULE := libcameralight
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libcameralight.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libcameralight
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -506,12 +498,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libcredential-manager-service_so_32
+LOCAL_MODULE := libcredential-manager-service
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libcredential-manager-service.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libcredential-manager-service
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -519,12 +510,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libdeqp_somc_so_32
+LOCAL_MODULE := libdeqp_somc
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libdeqp_somc.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libdeqp_somc
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -532,12 +522,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libdevice_security_so_32
+LOCAL_MODULE := libdevice_security
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libdevice_security.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libdevice_security
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -593,12 +582,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libhdcprx_module_so_32
+LOCAL_MODULE := libhdcprx_module
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libhdcprx_module.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libhdcprx_module
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -606,12 +594,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libidd_so_32
+LOCAL_MODULE := libidd
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libidd.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libidd
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -667,12 +654,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libpin-cache_so_32
+LOCAL_MODULE := libpin-cache
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libpin-cache.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libpin-cache
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -680,12 +666,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libplstorage_so_32
+LOCAL_MODULE := libplstorage
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libplstorage.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libplstorage
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -693,12 +678,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libprotobuf-c_so_32
+LOCAL_MODULE := libprotobuf-c
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libprotobuf-c.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libprotobuf-c
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -718,12 +702,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libscdclient_so_32
+LOCAL_MODULE := libscdclient
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libscdclient.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libscdclient
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -947,12 +930,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libsomc_thermal_so_32
+LOCAL_MODULE := libsomc_thermal
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libsomc_thermal.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libsomc_thermal
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1032,12 +1014,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libsuntory_so_32
+LOCAL_MODULE := libsuntory
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libsuntory.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libsuntory
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1045,12 +1026,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libsuntory_utils_so_32
+LOCAL_MODULE := libsuntory_utils
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libsuntory_utils.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libsuntory_utils
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1058,12 +1038,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libta_so_32
+LOCAL_MODULE := libta
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libta.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libta
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1071,12 +1050,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libaudiopreprocessing_so_32
+LOCAL_MODULE := libaudiopreprocessing
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/soundfx/libaudiopreprocessing.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libaudiopreprocessing
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1084,12 +1062,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libbundlewrapper_so_32
+LOCAL_MODULE := libbundlewrapper
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/soundfx/libbundlewrapper.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libbundlewrapper
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1097,12 +1074,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libdownmix_so_32
+LOCAL_MODULE := libdownmix
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/soundfx/libdownmix.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libdownmix
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1110,12 +1086,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libeffectproxy_so_32
+LOCAL_MODULE := libeffectproxy
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/soundfx/libeffectproxy.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libeffectproxy
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1123,12 +1098,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libldnhncr_so_32
+LOCAL_MODULE := libldnhncr
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/soundfx/libldnhncr.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libldnhncr
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1136,12 +1110,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libqcompostprocbundle_so_32
+LOCAL_MODULE := libqcompostprocbundle
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/soundfx/libqcompostprocbundle.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libqcompostprocbundle
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1149,12 +1122,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libqcomvisualizer_so_32
+LOCAL_MODULE := libqcomvisualizer
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/soundfx/libqcomvisualizer.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libqcomvisualizer
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1162,12 +1134,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libqcomvoiceprocessing_so_32
+LOCAL_MODULE := libqcomvoiceprocessing
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/soundfx/libqcomvoiceprocessing.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libqcomvoiceprocessing
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1175,12 +1146,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libreverbwrapper_so_32
+LOCAL_MODULE := libreverbwrapper
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/soundfx/libreverbwrapper.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libreverbwrapper
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1212,12 +1182,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libvisualizer_so_32
+LOCAL_MODULE := libvisualizer
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/soundfx/libvisualizer.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libvisualizer
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1225,12 +1194,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := eglSubDriverAndroid_so_32
+LOCAL_MODULE := eglSubDriverAndroid
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/egl/eglSubDriverAndroid.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := eglSubDriverAndroid
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1238,12 +1206,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/egl
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libEGL_adreno_so_32
+LOCAL_MODULE := libEGL_adreno
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/egl/libEGL_adreno.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libEGL_adreno
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1251,12 +1218,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/egl
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libGLESv1_CM_adreno_so_32
+LOCAL_MODULE := libGLESv1_CM_adreno
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/egl/libGLESv1_CM_adreno.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libGLESv1_CM_adreno
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1264,12 +1230,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/egl
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libGLESv2_adreno_so_32
+LOCAL_MODULE := libGLESv2_adreno
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/egl/libGLESv2_adreno.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libGLESv2_adreno
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1277,12 +1242,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/egl
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libQTapGLES_so_32
+LOCAL_MODULE := libQTapGLES
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/egl/libQTapGLES.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libQTapGLES
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1290,12 +1254,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/egl
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libq3dtools_adreno_so_32
+LOCAL_MODULE := libq3dtools_adreno
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/egl/libq3dtools_adreno.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libq3dtools_adreno
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1303,12 +1266,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/egl
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libq3dtools_esx_so_32
+LOCAL_MODULE := libq3dtools_esx
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/egl/libq3dtools_esx.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libq3dtools_esx
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1316,12 +1278,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/egl
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := lib-imss_so_32
+LOCAL_MODULE := lib-imss
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/lib-imss.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := lib-imss
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1329,12 +1290,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := lib-imsvt_so_32
+LOCAL_MODULE := lib-imsvt
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/lib-imsvt.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := lib-imsvt
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1342,12 +1302,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := lib-imsxml_so_32
+LOCAL_MODULE := lib-imsxml
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/lib-imsxml.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := lib-imsxml
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1355,12 +1314,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := lib-sec-disp_so_32
+LOCAL_MODULE := lib-sec-disp
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/lib-sec-disp.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := lib-sec-disp
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1368,12 +1326,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libC2D2_so_32
+LOCAL_MODULE := libC2D2
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libC2D2.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libC2D2
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1381,12 +1338,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libCB_so_32
+LOCAL_MODULE := libCB
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libCB.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libCB
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1394,12 +1350,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libFIDOKeyProvisioning_so_32
+LOCAL_MODULE := libFIDOKeyProvisioning
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libFIDOKeyProvisioning.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libFIDOKeyProvisioning
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1407,12 +1362,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libFidoCrypto_so_32
+LOCAL_MODULE := libFidoCrypto
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libFidoCrypto.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libFidoCrypto
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1420,12 +1374,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libFidoCryptoJNI_so_32
+LOCAL_MODULE := libFidoCryptoJNI
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libFidoCryptoJNI.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libFidoCryptoJNI
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1433,12 +1386,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libOpenCL_so_32
+LOCAL_MODULE := libOpenCL
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libOpenCL.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libOpenCL
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1446,12 +1398,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libQSEEComAPI_so_32
+LOCAL_MODULE := libQSEEComAPI
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libQSEEComAPI.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libQSEEComAPI
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1459,12 +1410,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libRSDriver_adreno_so_32
+LOCAL_MODULE := libRSDriver_adreno
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libRSDriver_adreno.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libRSDriver_adreno
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1472,12 +1422,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libStDrvInt_so_32
+LOCAL_MODULE := libStDrvInt
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libStDrvInt.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libStDrvInt
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1833,12 +1782,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libadreno_utils_so_32
+LOCAL_MODULE := libadreno_utils
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libadreno_utils.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libadreno_utils
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1846,12 +1794,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libavenhancements_so_32
+LOCAL_MODULE := libavenhancements
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libavenhancements.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libavenhancements
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1859,12 +1806,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libc2d30-a4xx_so_32
+LOCAL_MODULE := libc2d30-a4xx
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libc2d30-a4xx.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libc2d30-a4xx
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -2088,12 +2034,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libdataitems_so_32
+LOCAL_MODULE := libdataitems
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libdataitems.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libdataitems
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -2101,12 +2046,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libdrmfs_so_32
+LOCAL_MODULE := libdrmfs
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libdrmfs.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libdrmfs
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -2114,12 +2058,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libdrmtime_so_32
+LOCAL_MODULE := libdrmtime
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libdrmtime.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libdrmtime
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -2163,12 +2106,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libgsl_so_32
+LOCAL_MODULE := libgsl
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libgsl.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libgsl
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -2212,12 +2154,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libllvm-glnext_so_32
+LOCAL_MODULE := libllvm-glnext
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libllvm-glnext.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libllvm-glnext
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -2225,12 +2166,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libllvm-qcom_so_32
+LOCAL_MODULE := libllvm-qcom
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libllvm-qcom.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libllvm-qcom
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -2238,12 +2178,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmm-abl-oem_so_32
+LOCAL_MODULE := libmm-abl-oem
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmm-abl-oem.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmm-abl-oem
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -2251,12 +2190,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmm-abl_so_32
+LOCAL_MODULE := libmm-abl
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmm-abl.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmm-abl
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -2264,12 +2202,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmm-als_so_32
+LOCAL_MODULE := libmm-als
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmm-als.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmm-als
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -2277,12 +2214,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmm-color-convertor_so_32
+LOCAL_MODULE := libmm-color-convertor
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmm-color-convertor.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmm-color-convertor
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -2290,12 +2226,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmm-disp-apis_so_32
+LOCAL_MODULE := libmm-disp-apis
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmm-disp-apis.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmm-disp-apis
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -2303,12 +2238,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmm-hdcpmgr_so_32
+LOCAL_MODULE := libmm-hdcpmgr
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmm-hdcpmgr.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmm-hdcpmgr
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -2316,12 +2250,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmm-qdcm_so_32
+LOCAL_MODULE := libmm-qdcm
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmm-qdcm.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmm-qdcm
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -2329,12 +2262,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmQSM_so_32
+LOCAL_MODULE := libmmQSM
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmmQSM.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmQSM
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -2450,12 +2382,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmcamera2_q3a_core_so_32
+LOCAL_MODULE := libmmcamera2_q3a_core
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmmcamera2_q3a_core.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmcamera2_q3a_core
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -2463,12 +2394,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmcamera2_sensor_debug_so_32
+LOCAL_MODULE := libmmcamera2_sensor_debug
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmmcamera2_sensor_debug.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmcamera2_sensor_debug
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -2488,12 +2418,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmcamera2_stats_algorithm_so_32
+LOCAL_MODULE := libmmcamera2_stats_algorithm
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmmcamera2_stats_algorithm.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmcamera2_stats_algorithm
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3353,12 +3282,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmhttpstack_so_32
+LOCAL_MODULE := libmmhttpstack
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmmhttpstack.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmhttpstack
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3366,12 +3294,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmiipstreammmihttp_so_32
+LOCAL_MODULE := libmmiipstreammmihttp
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmmiipstreammmihttp.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmiipstreammmihttp
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3391,12 +3318,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmipstreamaal_so_32
+LOCAL_MODULE := libmmipstreamaal
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmmipstreamaal.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmipstreamaal
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3404,12 +3330,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmipstreamnetwork_so_32
+LOCAL_MODULE := libmmipstreamnetwork
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmmipstreamnetwork.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmipstreamnetwork
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3417,12 +3342,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmipstreamsourcehttp_so_32
+LOCAL_MODULE := libmmipstreamsourcehttp
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmmipstreamsourcehttp.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmipstreamsourcehttp
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3430,12 +3354,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmipstreamutils_so_32
+LOCAL_MODULE := libmmipstreamutils
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmmipstreamutils.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmipstreamutils
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3455,12 +3378,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmosal_so_32
+LOCAL_MODULE := libmmosal
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmmosal.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmosal
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3468,12 +3390,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmparser_so_32
+LOCAL_MODULE := libmmparser
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmmparser.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmparser
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3481,12 +3402,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmparser_lite_so_32
+LOCAL_MODULE := libmmparser_lite
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmmparser_lite.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmparser_lite
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3518,12 +3438,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmrtpdecoder_so_32
+LOCAL_MODULE := libmmrtpdecoder
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmmrtpdecoder.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmrtpdecoder
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3531,12 +3450,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmrtpencoder_so_32
+LOCAL_MODULE := libmmrtpencoder
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmmrtpencoder.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmrtpencoder
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3544,12 +3462,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmwfdinterface_so_32
+LOCAL_MODULE := libmmwfdinterface
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmmwfdinterface.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmwfdinterface
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3557,12 +3474,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmwfdsinkinterface_so_32
+LOCAL_MODULE := libmmwfdsinkinterface
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmmwfdsinkinterface.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmwfdsinkinterface
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3570,12 +3486,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmwfdsrcinterface_so_32
+LOCAL_MODULE := libmmwfdsrcinterface
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmmwfdsrcinterface.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmwfdsrcinterface
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3607,12 +3522,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libpreload-me_so_32
+LOCAL_MODULE := libpreload-me
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libpreload-me.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libpreload-me
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3680,12 +3594,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libqti-perfd-client_so_32
+LOCAL_MODULE := libqti-perfd-client
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libqti-perfd-client.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libqti-perfd-client
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3693,12 +3606,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libqti_performance_so_32
+LOCAL_MODULE := libqti_performance
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libqti_performance.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libqti_performance
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3706,12 +3618,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := librpmb_so_32
+LOCAL_MODULE := librpmb
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/librpmb.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := librpmb
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3719,12 +3630,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := librs_adreno_so_32
+LOCAL_MODULE := librs_adreno
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/librs_adreno.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := librs_adreno
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3732,12 +3642,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := librs_adreno_sha1_so_32
+LOCAL_MODULE := librs_adreno_sha1
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/librs_adreno_sha1.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := librs_adreno_sha1
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3745,12 +3654,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libscale_so_32
+LOCAL_MODULE := libscale
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libscale.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libscale
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3758,12 +3666,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libsecureui_so_32
+LOCAL_MODULE := libsecureui
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libsecureui.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libsecureui
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3771,12 +3678,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libsecureui_svcsock_so_32
+LOCAL_MODULE := libsecureui_svcsock
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libsecureui_svcsock.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libsecureui_svcsock
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3784,12 +3690,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libsensor1_so_32
+LOCAL_MODULE := libsensor1
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libsensor1.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libsensor1
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3797,12 +3702,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libsensor_reg_so_32
+LOCAL_MODULE := libsensor_reg
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libsensor_reg.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libsensor_reg
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3810,12 +3714,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libssd_so_32
+LOCAL_MODULE := libssd
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libssd.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libssd
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3823,12 +3726,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libtzdrmgenprov_so_32
+LOCAL_MODULE := libtzdrmgenprov
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libtzdrmgenprov.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libtzdrmgenprov
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3860,12 +3762,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libdrmclearkeyplugin_so_32
+LOCAL_MODULE := libdrmclearkeyplugin
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/mediadrm/libdrmclearkeyplugin.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libdrmclearkeyplugin
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3885,12 +3786,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/mediadrm
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := sensors_ssc_so_32
+LOCAL_MODULE := sensors.ssc
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/sensors.ssc.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := sensors.ssc
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3934,12 +3834,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := sensors_msm8994_so_64
+LOCAL_MODULE := sensors.msm8994
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/hw/sensors.msm8994.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := sensors.msm8994
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -3947,12 +3846,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/hw
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libMcClient_so_64
+LOCAL_MODULE := libMcClient
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libMcClient.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libMcClient
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -3960,12 +3858,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := lib_asb_tee_so_64
+LOCAL_MODULE := lib_asb_tee
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/lib_asb_tee.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := lib_asb_tee
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -3973,12 +3870,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libcamera_clientsemc_so_64
+LOCAL_MODULE := libcamera_clientsemc
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libcamera_clientsemc.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libcamera_clientsemc
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -3986,12 +3882,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libcameraextensionclient_so_64
+LOCAL_MODULE := libcameraextensionclient
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libcameraextensionclient.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libcameraextensionclient
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -3999,12 +3894,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libcameraextensionjni_so_64
+LOCAL_MODULE := libcameraextensionjni
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libcameraextensionjni.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libcameraextensionjni
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4012,12 +3906,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libcameraextensionservice_so_64
+LOCAL_MODULE := libcameraextensionservice
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libcameraextensionservice.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libcameraextensionservice
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4025,12 +3918,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libcameralight_so_64
+LOCAL_MODULE := libcameralight
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libcameralight.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libcameralight
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4038,12 +3930,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libcredential-manager-service_so_64
+LOCAL_MODULE := libcredential-manager-service
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libcredential-manager-service.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libcredential-manager-service
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4051,12 +3942,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libdeqp_somc_so_64
+LOCAL_MODULE := libdeqp_somc
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libdeqp_somc.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libdeqp_somc
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4064,12 +3954,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libdevice_security_so_64
+LOCAL_MODULE := libdevice_security
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libdevice_security.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libdevice_security
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4077,12 +3966,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libhdcprx_module_so_64
+LOCAL_MODULE := libhdcprx_module
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libhdcprx_module.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libhdcprx_module
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4090,12 +3978,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libidd_so_64
+LOCAL_MODULE := libidd
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libidd.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libidd
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4103,12 +3990,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libpin-cache_so_64
+LOCAL_MODULE := libpin-cache
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libpin-cache.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libpin-cache
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4116,12 +4002,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libplstorage_so_64
+LOCAL_MODULE := libplstorage
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libplstorage.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libplstorage
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4129,12 +4014,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libprotobuf-c_so_64
+LOCAL_MODULE := libprotobuf-c
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libprotobuf-c.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libprotobuf-c
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4142,12 +4026,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libscdclient_so_64
+LOCAL_MODULE := libscdclient
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libscdclient.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libscdclient
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4155,12 +4038,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libsomc_thermal_so_64
+LOCAL_MODULE := libsomc_thermal
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libsomc_thermal.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libsomc_thermal
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4168,12 +4050,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libsuntory_so_64
+LOCAL_MODULE := libsuntory
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libsuntory.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libsuntory
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4181,12 +4062,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libsuntory_utils_so_64
+LOCAL_MODULE := libsuntory_utils
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libsuntory_utils.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libsuntory_utils
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4194,12 +4074,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libta_so_64
+LOCAL_MODULE := libta
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libta.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libta
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4219,12 +4098,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libaudiopreprocessing_so_64
+LOCAL_MODULE := libaudiopreprocessing
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/soundfx/libaudiopreprocessing.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libaudiopreprocessing
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4232,12 +4110,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libbundlewrapper_so_64
+LOCAL_MODULE := libbundlewrapper
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/soundfx/libbundlewrapper.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libbundlewrapper
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4245,12 +4122,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libdownmix_so_64
+LOCAL_MODULE := libdownmix
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/soundfx/libdownmix.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libdownmix
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4258,12 +4134,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libeffectproxy_so_64
+LOCAL_MODULE := libeffectproxy
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/soundfx/libeffectproxy.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libeffectproxy
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4271,12 +4146,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libldnhncr_so_64
+LOCAL_MODULE := libldnhncr
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/soundfx/libldnhncr.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libldnhncr
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4284,12 +4158,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libqcompostprocbundle_so_64
+LOCAL_MODULE := libqcompostprocbundle
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/soundfx/libqcompostprocbundle.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libqcompostprocbundle
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4297,12 +4170,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libqcomvisualizer_so_64
+LOCAL_MODULE := libqcomvisualizer
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/soundfx/libqcomvisualizer.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libqcomvisualizer
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4310,12 +4182,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libqcomvoiceprocessing_so_64
+LOCAL_MODULE := libqcomvoiceprocessing
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/soundfx/libqcomvoiceprocessing.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libqcomvoiceprocessing
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4323,12 +4194,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libreverbwrapper_so_64
+LOCAL_MODULE := libreverbwrapper
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/soundfx/libreverbwrapper.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libreverbwrapper
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4336,12 +4206,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libvisualizer_so_64
+LOCAL_MODULE := libvisualizer
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/soundfx/libvisualizer.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libvisualizer
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4349,12 +4218,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/soundfx
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := eglSubDriverAndroid_so_64
+LOCAL_MODULE := eglSubDriverAndroid
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/egl/eglSubDriverAndroid.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := eglSubDriverAndroid
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4362,12 +4230,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64/egl
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libEGL_adreno_so_64
+LOCAL_MODULE := libEGL_adreno
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/egl/libEGL_adreno.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libEGL_adreno
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4375,12 +4242,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64/egl
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libGLESv1_CM_adreno_so_64
+LOCAL_MODULE := libGLESv1_CM_adreno
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/egl/libGLESv1_CM_adreno.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libGLESv1_CM_adreno
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4388,12 +4254,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64/egl
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libGLESv2_adreno_so_64
+LOCAL_MODULE := libGLESv2_adreno
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/egl/libGLESv2_adreno.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libGLESv2_adreno
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4401,12 +4266,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64/egl
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libQTapGLES_so_64
+LOCAL_MODULE := libQTapGLES
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/egl/libQTapGLES.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libQTapGLES
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4414,12 +4278,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64/egl
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libq3dtools_adreno_so_64
+LOCAL_MODULE := libq3dtools_adreno
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/egl/libq3dtools_adreno.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libq3dtools_adreno
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4427,12 +4290,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64/egl
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libq3dtools_esx_so_64
+LOCAL_MODULE := libq3dtools_esx
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/egl/libq3dtools_esx.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libq3dtools_esx
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4440,12 +4302,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64/egl
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := lib-imss_so_64
+LOCAL_MODULE := lib-imss
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/lib-imss.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := lib-imss
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4453,12 +4314,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := lib-imsvt_so_64
+LOCAL_MODULE := lib-imsvt
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/lib-imsvt.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := lib-imsvt
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4466,12 +4326,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := lib-imsxml_so_64
+LOCAL_MODULE := lib-imsxml
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/lib-imsxml.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := lib-imsxml
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4491,12 +4350,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := lib-sec-disp_so_64
+LOCAL_MODULE := lib-sec-disp
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/lib-sec-disp.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := lib-sec-disp
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4504,12 +4362,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libC2D2_so_64
+LOCAL_MODULE := libC2D2
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libC2D2.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libC2D2
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4517,12 +4374,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libCB_so_64
+LOCAL_MODULE := libCB
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libCB.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libCB
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4530,12 +4386,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libFIDOKeyProvisioning_so_64
+LOCAL_MODULE := libFIDOKeyProvisioning
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libFIDOKeyProvisioning.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libFIDOKeyProvisioning
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4543,12 +4398,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libFidoCrypto_so_64
+LOCAL_MODULE := libFidoCrypto
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libFidoCrypto.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libFidoCrypto
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4556,12 +4410,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libFidoCryptoJNI_so_64
+LOCAL_MODULE := libFidoCryptoJNI
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libFidoCryptoJNI.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libFidoCryptoJNI
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4569,12 +4422,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libOpenCL_so_64
+LOCAL_MODULE := libOpenCL
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libOpenCL.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libOpenCL
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4582,12 +4434,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libQSEEComAPI_so_64
+LOCAL_MODULE := libQSEEComAPI
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libQSEEComAPI.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libQSEEComAPI
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4595,12 +4446,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libRSDriver_adreno_so_64
+LOCAL_MODULE := libRSDriver_adreno
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libRSDriver_adreno.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libRSDriver_adreno
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4608,12 +4458,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libStDrvInt_so_64
+LOCAL_MODULE := libStDrvInt
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libStDrvInt.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libStDrvInt
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4621,12 +4470,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libadreno_utils_so_64
+LOCAL_MODULE := libadreno_utils
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libadreno_utils.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libadreno_utils
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4634,12 +4482,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libavenhancements_so_64
+LOCAL_MODULE := libavenhancements
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libavenhancements.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libavenhancements
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4647,12 +4494,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libc2d30-a4xx_so_64
+LOCAL_MODULE := libc2d30-a4xx
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libc2d30-a4xx.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libc2d30-a4xx
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4660,12 +4506,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libdataitems_so_64
+LOCAL_MODULE := libdataitems
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libdataitems.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libdataitems
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4673,12 +4518,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libdrmfs_so_64
+LOCAL_MODULE := libdrmfs
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libdrmfs.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libdrmfs
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4686,12 +4530,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libdrmtime_so_64
+LOCAL_MODULE := libdrmtime
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libdrmtime.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libdrmtime
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4699,12 +4542,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libgsl_so_64
+LOCAL_MODULE := libgsl
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libgsl.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libgsl
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4712,12 +4554,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libllvm-glnext_so_64
+LOCAL_MODULE := libllvm-glnext
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libllvm-glnext.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libllvm-glnext
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4725,12 +4566,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libllvm-qcom_so_64
+LOCAL_MODULE := libllvm-qcom
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libllvm-qcom.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libllvm-qcom
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4738,12 +4578,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmm-abl-oem_so_64
+LOCAL_MODULE := libmm-abl-oem
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmm-abl-oem.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmm-abl-oem
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4751,12 +4590,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmm-abl_so_64
+LOCAL_MODULE := libmm-abl
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmm-abl.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmm-abl
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4764,12 +4602,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmm-als_so_64
+LOCAL_MODULE := libmm-als
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmm-als.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmm-als
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4777,12 +4614,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmm-color-convertor_so_64
+LOCAL_MODULE := libmm-color-convertor
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmm-color-convertor.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmm-color-convertor
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4790,12 +4626,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmm-disp-apis_so_64
+LOCAL_MODULE := libmm-disp-apis
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmm-disp-apis.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmm-disp-apis
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4803,12 +4638,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmm-hdcpmgr_so_64
+LOCAL_MODULE := libmm-hdcpmgr
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmm-hdcpmgr.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmm-hdcpmgr
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4816,12 +4650,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmm-qdcm_so_64
+LOCAL_MODULE := libmm-qdcm
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmm-qdcm.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmm-qdcm
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4829,12 +4662,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmQSM_so_64
+LOCAL_MODULE := libmmQSM
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmmQSM.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmQSM
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4842,12 +4674,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmcamera2_q3a_core_so_64
+LOCAL_MODULE := libmmcamera2_q3a_core
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmmcamera2_q3a_core.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmcamera2_q3a_core
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4855,12 +4686,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmcamera2_sensor_debug_so_64
+LOCAL_MODULE := libmmcamera2_sensor_debug
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmmcamera2_sensor_debug.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmcamera2_sensor_debug
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4868,12 +4698,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmcamera2_stats_algorithm_so_64
+LOCAL_MODULE := libmmcamera2_stats_algorithm
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmmcamera2_stats_algorithm.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmcamera2_stats_algorithm
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4881,12 +4710,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmhttpstack_so_64
+LOCAL_MODULE := libmmhttpstack
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmmhttpstack.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmhttpstack
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4894,12 +4722,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmiipstreammmihttp_so_64
+LOCAL_MODULE := libmmiipstreammmihttp
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmmiipstreammmihttp.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmiipstreammmihttp
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4907,12 +4734,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmipstreamaal_so_64
+LOCAL_MODULE := libmmipstreamaal
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmmipstreamaal.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmipstreamaal
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4920,12 +4746,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmipstreamnetwork_so_64
+LOCAL_MODULE := libmmipstreamnetwork
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmmipstreamnetwork.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmipstreamnetwork
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4933,12 +4758,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmipstreamsourcehttp_so_64
+LOCAL_MODULE := libmmipstreamsourcehttp
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmmipstreamsourcehttp.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmipstreamsourcehttp
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4946,12 +4770,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmipstreamutils_so_64
+LOCAL_MODULE := libmmipstreamutils
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmmipstreamutils.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmipstreamutils
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4959,12 +4782,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmosal_so_64
+LOCAL_MODULE := libmmosal
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmmosal.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmosal
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4972,12 +4794,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmparser_so_64
+LOCAL_MODULE := libmmparser
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmmparser.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmparser
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4985,12 +4806,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmparser_lite_so_64
+LOCAL_MODULE := libmmparser_lite
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmmparser_lite.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmparser_lite
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4998,12 +4818,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmrtpdecoder_so_64
+LOCAL_MODULE := libmmrtpdecoder
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmmrtpdecoder.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmrtpdecoder
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5011,12 +4830,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmrtpencoder_so_64
+LOCAL_MODULE := libmmrtpencoder
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmmrtpencoder.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmrtpencoder
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5024,12 +4842,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmwfdinterface_so_64
+LOCAL_MODULE := libmmwfdinterface
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmmwfdinterface.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmwfdinterface
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5037,12 +4854,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmwfdsinkinterface_so_64
+LOCAL_MODULE := libmmwfdsinkinterface
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmmwfdsinkinterface.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmwfdsinkinterface
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5050,12 +4866,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmwfdsrcinterface_so_64
+LOCAL_MODULE := libmmwfdsrcinterface
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libmmwfdsrcinterface.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libmmwfdsrcinterface
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5063,12 +4878,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libpreload-me_so_64
+LOCAL_MODULE := libpreload-me
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libpreload-me.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libpreload-me
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5076,12 +4890,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libqti-perfd-client_so_64
+LOCAL_MODULE := libqti-perfd-client
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libqti-perfd-client.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libqti-perfd-client
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5089,12 +4902,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libqti_performance_so_64
+LOCAL_MODULE := libqti_performance
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libqti_performance.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libqti_performance
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5102,12 +4914,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := librpmb_so_64
+LOCAL_MODULE := librpmb
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/librpmb.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := librpmb
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5115,12 +4926,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := librs_adreno_so_64
+LOCAL_MODULE := librs_adreno
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/librs_adreno.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := librs_adreno
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5128,12 +4938,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := librs_adreno_sha1_so_64
+LOCAL_MODULE := librs_adreno_sha1
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/librs_adreno_sha1.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := librs_adreno_sha1
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5141,12 +4950,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libscale_so_64
+LOCAL_MODULE := libscale
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libscale.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libscale
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5154,12 +4962,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libsecureui_so_64
+LOCAL_MODULE := libsecureui
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libsecureui.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libsecureui
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5167,12 +4974,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libsecureui_svcsock_so_64
+LOCAL_MODULE := libsecureui_svcsock
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libsecureui_svcsock.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libsecureui_svcsock
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5180,12 +4986,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libsensor1_so_64
+LOCAL_MODULE := libsensor1
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libsensor1.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libsensor1
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5193,12 +4998,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libsensor_reg_so_64
+LOCAL_MODULE := libsensor_reg
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libsensor_reg.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libsensor_reg
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5206,12 +5010,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libssd_so_64
+LOCAL_MODULE := libssd
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libssd.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libssd
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5219,12 +5022,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libtzdrmgenprov_so_64
+LOCAL_MODULE := libtzdrmgenprov
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libtzdrmgenprov.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libtzdrmgenprov
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5232,12 +5034,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libdrmclearkeyplugin_so_64
+LOCAL_MODULE := libdrmclearkeyplugin
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := libdrmclearkeyplugin
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5245,12 +5046,11 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64/mediadrm
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := sensors_ssc_so_64
+LOCAL_MODULE := sensors.ssc
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/sensors.ssc.so
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := sensors.ssc
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5458,67 +5258,61 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := venus_b00
+LOCAL_MODULE := venus
 LOCAL_MODULE_SUFFIX := .b00
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/venus.b00
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := venus
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := venus_b01
+LOCAL_MODULE := venus
 LOCAL_MODULE_SUFFIX := .b01
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/venus.b01
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := venus
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := venus_b02
+LOCAL_MODULE := venus
 LOCAL_MODULE_SUFFIX := .b02
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/venus.b02
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := venus
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := venus_b03
+LOCAL_MODULE := venus
 LOCAL_MODULE_SUFFIX := .b03
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/venus.b03
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := venus
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := venus_b04
+LOCAL_MODULE := venus
 LOCAL_MODULE_SUFFIX := .b04
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/venus.b04
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := venus
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := venus_mdt
+LOCAL_MODULE := venus
 LOCAL_MODULE_SUFFIX := .mdt
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/venus.mdt
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := venus
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
@@ -5634,375 +5428,341 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_color_ctrl_dat
+LOCAL_MODULE := color_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/color_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := color_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_dataflow_dat
+LOCAL_MODULE := dataflow
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/dataflow.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := dataflow
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_debug_mgr_dat
+LOCAL_MODULE := debug_mgr
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/debug_mgr.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := debug_mgr
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_exposure_ctrl_dat
+LOCAL_MODULE := exposure_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/exposure_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_exposure_ctrl_diagram_dat
+LOCAL_MODULE := exposure_ctrl_diagram
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/exposure_ctrl_diagram.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl_diagram
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_exposure_ctrl_gamma_dat
+LOCAL_MODULE := exposure_ctrl_gamma
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/exposure_ctrl_gamma.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl_gamma
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_face_detector_dat
+LOCAL_MODULE := face_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/face_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := face_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_flicker_detector_dat
+LOCAL_MODULE := flicker_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/flicker_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := flicker_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_focus_stats_conv_dat
+LOCAL_MODULE := focus_stats_conv
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/focus_stats_conv.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := focus_stats_conv
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_food_comp_yummy_dat
+LOCAL_MODULE := food_comp_yummy
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/food_comp_yummy.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := food_comp_yummy
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_food_detector_dat
+LOCAL_MODULE := food_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/food_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := food_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_hal_ctrl_dat
+LOCAL_MODULE := hal_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/hal_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_hal_ctrl_platform_dat
+LOCAL_MODULE := hal_ctrl_platform
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/hal_ctrl_platform.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_hal_ctrl_platform_abf_dat
+LOCAL_MODULE := hal_ctrl_platform_abf
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/hal_ctrl_platform_abf.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_abf
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_hal_ctrl_platform_asf_lin_dat
+LOCAL_MODULE := hal_ctrl_platform_asf_lin
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/hal_ctrl_platform_asf_lin.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_asf_lin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_hal_ctrl_platform_asf_stp_dat
+LOCAL_MODULE := hal_ctrl_platform_asf_stp
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/hal_ctrl_platform_asf_stp.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_asf_stp
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_hal_ctrl_platform_gic_dat
+LOCAL_MODULE := hal_ctrl_platform_gic
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/hal_ctrl_platform_gic.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_gic
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_hdr_comp_dat
+LOCAL_MODULE := hdr_comp
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/hdr_comp.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hdr_comp
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_idt_ctrl_dat
+LOCAL_MODULE := idt_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/idt_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := idt_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_image_conv_dat
+LOCAL_MODULE := image_conv
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/image_conv.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_image_conv_canele_dat
+LOCAL_MODULE := image_conv_canele
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/image_conv_canele.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_canele
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_image_conv_marble_dat
+LOCAL_MODULE := image_conv_marble
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/image_conv_marble.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_marble
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_image_conv_raisin_dat
+LOCAL_MODULE := image_conv_raisin
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/image_conv_raisin.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_raisin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_image_conv_spica_dat
+LOCAL_MODULE := image_conv_spica
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/image_conv_spica.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_spica
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_jpeg_enc_dat
+LOCAL_MODULE := jpeg_enc
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/jpeg_enc.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := jpeg_enc
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_lens_ctrl_dat
+LOCAL_MODULE := lens_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/lens_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := lens_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_motion_estimation_dat
+LOCAL_MODULE := motion_estimation
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/motion_estimation.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := motion_estimation
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_multiframe_nr_dat
+LOCAL_MODULE := multiframe_nr
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/multiframe_nr.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_multiframe_nr_melonpan_dat
+LOCAL_MODULE := multiframe_nr_melonpan
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/multiframe_nr_melonpan.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_melonpan
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_multiframe_nr_mugichoco_dat
+LOCAL_MODULE := multiframe_nr_mugichoco
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/multiframe_nr_mugichoco.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_mugichoco
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_multiframe_nr_toppo_dat
+LOCAL_MODULE := multiframe_nr_toppo
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/multiframe_nr_toppo.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_toppo
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_object_tracker_dat
+LOCAL_MODULE := object_tracker
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/object_tracker.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := object_tracker
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_scene_detector_dat
+LOCAL_MODULE := scene_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/scene_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := scene_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LGI05BN0_snapshot_ctrl_dat
+LOCAL_MODULE := snapshot_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/LGI05BN0/snapshot_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := snapshot_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/LGI05BN0
 include $(BUILD_PREBUILT)
@@ -6018,375 +5778,341 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_color_ctrl_dat
+LOCAL_MODULE := color_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/color_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := color_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_dataflow_dat
+LOCAL_MODULE := dataflow
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/dataflow.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := dataflow
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_debug_mgr_dat
+LOCAL_MODULE := debug_mgr
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/debug_mgr.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := debug_mgr
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_exposure_ctrl_dat
+LOCAL_MODULE := exposure_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/exposure_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_exposure_ctrl_diagram_dat
+LOCAL_MODULE := exposure_ctrl_diagram
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/exposure_ctrl_diagram.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl_diagram
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_exposure_ctrl_gamma_dat
+LOCAL_MODULE := exposure_ctrl_gamma
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/exposure_ctrl_gamma.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl_gamma
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_face_detector_dat
+LOCAL_MODULE := face_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/face_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := face_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_flicker_detector_dat
+LOCAL_MODULE := flicker_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/flicker_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := flicker_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_focus_stats_conv_dat
+LOCAL_MODULE := focus_stats_conv
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/focus_stats_conv.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := focus_stats_conv
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_food_comp_yummy_dat
+LOCAL_MODULE := food_comp_yummy
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/food_comp_yummy.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := food_comp_yummy
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_food_detector_dat
+LOCAL_MODULE := food_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/food_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := food_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_hal_ctrl_dat
+LOCAL_MODULE := hal_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/hal_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_hal_ctrl_platform_dat
+LOCAL_MODULE := hal_ctrl_platform
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/hal_ctrl_platform.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_hal_ctrl_platform_abf_dat
+LOCAL_MODULE := hal_ctrl_platform_abf
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/hal_ctrl_platform_abf.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_abf
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_hal_ctrl_platform_asf_lin_dat
+LOCAL_MODULE := hal_ctrl_platform_asf_lin
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/hal_ctrl_platform_asf_lin.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_asf_lin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_hal_ctrl_platform_asf_stp_dat
+LOCAL_MODULE := hal_ctrl_platform_asf_stp
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/hal_ctrl_platform_asf_stp.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_asf_stp
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_hal_ctrl_platform_gic_dat
+LOCAL_MODULE := hal_ctrl_platform_gic
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/hal_ctrl_platform_gic.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_gic
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_hdr_comp_dat
+LOCAL_MODULE := hdr_comp
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/hdr_comp.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hdr_comp
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_idt_ctrl_dat
+LOCAL_MODULE := idt_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/idt_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := idt_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_image_conv_dat
+LOCAL_MODULE := image_conv
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/image_conv.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_image_conv_canele_dat
+LOCAL_MODULE := image_conv_canele
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/image_conv_canele.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_canele
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_image_conv_marble_dat
+LOCAL_MODULE := image_conv_marble
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/image_conv_marble.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_marble
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_image_conv_raisin_dat
+LOCAL_MODULE := image_conv_raisin
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/image_conv_raisin.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_raisin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_image_conv_spica_dat
+LOCAL_MODULE := image_conv_spica
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/image_conv_spica.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_spica
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_jpeg_enc_dat
+LOCAL_MODULE := jpeg_enc
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/jpeg_enc.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := jpeg_enc
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_lens_ctrl_dat
+LOCAL_MODULE := lens_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/lens_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := lens_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_motion_estimation_dat
+LOCAL_MODULE := motion_estimation
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/motion_estimation.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := motion_estimation
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_multiframe_nr_dat
+LOCAL_MODULE := multiframe_nr
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/multiframe_nr.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_multiframe_nr_melonpan_dat
+LOCAL_MODULE := multiframe_nr_melonpan
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/multiframe_nr_melonpan.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_melonpan
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_multiframe_nr_mugichoco_dat
+LOCAL_MODULE := multiframe_nr_mugichoco
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/multiframe_nr_mugichoco.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_mugichoco
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_multiframe_nr_toppo_dat
+LOCAL_MODULE := multiframe_nr_toppo
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/multiframe_nr_toppo.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_toppo
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_object_tracker_dat
+LOCAL_MODULE := object_tracker
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/object_tracker.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := object_tracker
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_scene_detector_dat
+LOCAL_MODULE := scene_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/scene_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := scene_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SEM05BN0_snapshot_ctrl_dat
+LOCAL_MODULE := snapshot_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SEM05BN0/snapshot_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := snapshot_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SEM05BN0
 include $(BUILD_PREBUILT)
@@ -6402,375 +6128,341 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_color_ctrl_dat
+LOCAL_MODULE := color_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/color_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := color_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_dataflow_dat
+LOCAL_MODULE := dataflow
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/dataflow.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := dataflow
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_debug_mgr_dat
+LOCAL_MODULE := debug_mgr
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/debug_mgr.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := debug_mgr
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_exposure_ctrl_dat
+LOCAL_MODULE := exposure_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/exposure_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_exposure_ctrl_diagram_dat
+LOCAL_MODULE := exposure_ctrl_diagram
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/exposure_ctrl_diagram.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl_diagram
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_exposure_ctrl_gamma_dat
+LOCAL_MODULE := exposure_ctrl_gamma
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/exposure_ctrl_gamma.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl_gamma
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_face_detector_dat
+LOCAL_MODULE := face_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/face_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := face_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_flicker_detector_dat
+LOCAL_MODULE := flicker_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/flicker_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := flicker_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_focus_stats_conv_dat
+LOCAL_MODULE := focus_stats_conv
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/focus_stats_conv.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := focus_stats_conv
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_food_comp_yummy_dat
+LOCAL_MODULE := food_comp_yummy
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/food_comp_yummy.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := food_comp_yummy
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_food_detector_dat
+LOCAL_MODULE := food_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/food_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := food_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_hal_ctrl_dat
+LOCAL_MODULE := hal_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/hal_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_hal_ctrl_platform_dat
+LOCAL_MODULE := hal_ctrl_platform
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/hal_ctrl_platform.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_hal_ctrl_platform_abf_dat
+LOCAL_MODULE := hal_ctrl_platform_abf
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/hal_ctrl_platform_abf.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_abf
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_hal_ctrl_platform_asf_lin_dat
+LOCAL_MODULE := hal_ctrl_platform_asf_lin
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/hal_ctrl_platform_asf_lin.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_asf_lin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_hal_ctrl_platform_asf_stp_dat
+LOCAL_MODULE := hal_ctrl_platform_asf_stp
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/hal_ctrl_platform_asf_stp.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_asf_stp
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_hal_ctrl_platform_gic_dat
+LOCAL_MODULE := hal_ctrl_platform_gic
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/hal_ctrl_platform_gic.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_gic
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_hdr_comp_dat
+LOCAL_MODULE := hdr_comp
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/hdr_comp.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hdr_comp
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_idt_ctrl_dat
+LOCAL_MODULE := idt_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/idt_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := idt_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_image_conv_dat
+LOCAL_MODULE := image_conv
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/image_conv.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_image_conv_canele_dat
+LOCAL_MODULE := image_conv_canele
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/image_conv_canele.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_canele
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_image_conv_marble_dat
+LOCAL_MODULE := image_conv_marble
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/image_conv_marble.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_marble
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_image_conv_raisin_dat
+LOCAL_MODULE := image_conv_raisin
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/image_conv_raisin.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_raisin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_image_conv_spica_dat
+LOCAL_MODULE := image_conv_spica
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/image_conv_spica.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_spica
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_jpeg_enc_dat
+LOCAL_MODULE := jpeg_enc
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/jpeg_enc.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := jpeg_enc
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_lens_ctrl_dat
+LOCAL_MODULE := lens_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/lens_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := lens_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_motion_estimation_dat
+LOCAL_MODULE := motion_estimation
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/motion_estimation.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := motion_estimation
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_multiframe_nr_dat
+LOCAL_MODULE := multiframe_nr
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/multiframe_nr.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_multiframe_nr_melonpan_dat
+LOCAL_MODULE := multiframe_nr_melonpan
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/multiframe_nr_melonpan.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_melonpan
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_multiframe_nr_mugichoco_dat
+LOCAL_MODULE := multiframe_nr_mugichoco
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/multiframe_nr_mugichoco.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_mugichoco
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_multiframe_nr_toppo_dat
+LOCAL_MODULE := multiframe_nr_toppo
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/multiframe_nr_toppo.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_toppo
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_object_tracker_dat
+LOCAL_MODULE := object_tracker
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/object_tracker.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := object_tracker
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_scene_detector_dat
+LOCAL_MODULE := scene_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/scene_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := scene_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS0_snapshot_ctrl_dat
+LOCAL_MODULE := snapshot_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS0/snapshot_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := snapshot_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS0
 include $(BUILD_PREBUILT)
@@ -6816,375 +6508,341 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_color_ctrl_dat
+LOCAL_MODULE := color_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/color_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := color_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_dataflow_dat
+LOCAL_MODULE := dataflow
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/dataflow.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := dataflow
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_debug_mgr_dat
+LOCAL_MODULE := debug_mgr
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/debug_mgr.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := debug_mgr
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_exposure_ctrl_dat
+LOCAL_MODULE := exposure_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/exposure_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_exposure_ctrl_diagram_dat
+LOCAL_MODULE := exposure_ctrl_diagram
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/exposure_ctrl_diagram.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl_diagram
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_exposure_ctrl_gamma_dat
+LOCAL_MODULE := exposure_ctrl_gamma
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/exposure_ctrl_gamma.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl_gamma
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_face_detector_dat
+LOCAL_MODULE := face_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/face_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := face_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_flicker_detector_dat
+LOCAL_MODULE := flicker_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/flicker_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := flicker_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_focus_stats_conv_dat
+LOCAL_MODULE := focus_stats_conv
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/focus_stats_conv.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := focus_stats_conv
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_food_comp_yummy_dat
+LOCAL_MODULE := food_comp_yummy
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/food_comp_yummy.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := food_comp_yummy
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_food_detector_dat
+LOCAL_MODULE := food_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/food_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := food_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_hal_ctrl_dat
+LOCAL_MODULE := hal_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/hal_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_hal_ctrl_platform_dat
+LOCAL_MODULE := hal_ctrl_platform
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/hal_ctrl_platform.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_hal_ctrl_platform_abf_dat
+LOCAL_MODULE := hal_ctrl_platform_abf
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/hal_ctrl_platform_abf.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_abf
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_hal_ctrl_platform_asf_lin_dat
+LOCAL_MODULE := hal_ctrl_platform_asf_lin
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/hal_ctrl_platform_asf_lin.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_asf_lin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_hal_ctrl_platform_asf_stp_dat
+LOCAL_MODULE := hal_ctrl_platform_asf_stp
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/hal_ctrl_platform_asf_stp.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_asf_stp
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_hal_ctrl_platform_gic_dat
+LOCAL_MODULE := hal_ctrl_platform_gic
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/hal_ctrl_platform_gic.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_gic
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_hdr_comp_dat
+LOCAL_MODULE := hdr_comp
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/hdr_comp.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hdr_comp
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_idt_ctrl_dat
+LOCAL_MODULE := idt_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/idt_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := idt_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_image_conv_dat
+LOCAL_MODULE := image_conv
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/image_conv.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_image_conv_canele_dat
+LOCAL_MODULE := image_conv_canele
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/image_conv_canele.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_canele
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_image_conv_marble_dat
+LOCAL_MODULE := image_conv_marble
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/image_conv_marble.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_marble
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_image_conv_raisin_dat
+LOCAL_MODULE := image_conv_raisin
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/image_conv_raisin.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_raisin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_image_conv_spica_dat
+LOCAL_MODULE := image_conv_spica
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/image_conv_spica.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_spica
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_jpeg_enc_dat
+LOCAL_MODULE := jpeg_enc
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/jpeg_enc.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := jpeg_enc
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_lens_ctrl_dat
+LOCAL_MODULE := lens_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/lens_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := lens_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_motion_estimation_dat
+LOCAL_MODULE := motion_estimation
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/motion_estimation.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := motion_estimation
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_multiframe_nr_dat
+LOCAL_MODULE := multiframe_nr
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/multiframe_nr.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_multiframe_nr_melonpan_dat
+LOCAL_MODULE := multiframe_nr_melonpan
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/multiframe_nr_melonpan.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_melonpan
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_multiframe_nr_mugichoco_dat
+LOCAL_MODULE := multiframe_nr_mugichoco
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/multiframe_nr_mugichoco.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_mugichoco
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_multiframe_nr_toppo_dat
+LOCAL_MODULE := multiframe_nr_toppo
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/multiframe_nr_toppo.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_toppo
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_object_tracker_dat
+LOCAL_MODULE := object_tracker
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/object_tracker.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := object_tracker
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_scene_detector_dat
+LOCAL_MODULE := scene_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/scene_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := scene_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS1_snapshot_ctrl_dat
+LOCAL_MODULE := snapshot_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS1/snapshot_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := snapshot_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS1
 include $(BUILD_PREBUILT)
@@ -7230,375 +6888,341 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_color_ctrl_dat
+LOCAL_MODULE := color_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/color_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := color_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_dataflow_dat
+LOCAL_MODULE := dataflow
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/dataflow.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := dataflow
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_debug_mgr_dat
+LOCAL_MODULE := debug_mgr
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/debug_mgr.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := debug_mgr
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_exposure_ctrl_dat
+LOCAL_MODULE := exposure_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/exposure_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_exposure_ctrl_diagram_dat
+LOCAL_MODULE := exposure_ctrl_diagram
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/exposure_ctrl_diagram.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl_diagram
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_exposure_ctrl_gamma_dat
+LOCAL_MODULE := exposure_ctrl_gamma
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/exposure_ctrl_gamma.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl_gamma
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_face_detector_dat
+LOCAL_MODULE := face_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/face_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := face_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_flicker_detector_dat
+LOCAL_MODULE := flicker_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/flicker_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := flicker_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_focus_stats_conv_dat
+LOCAL_MODULE := focus_stats_conv
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/focus_stats_conv.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := focus_stats_conv
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_food_comp_yummy_dat
+LOCAL_MODULE := food_comp_yummy
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/food_comp_yummy.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := food_comp_yummy
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_food_detector_dat
+LOCAL_MODULE := food_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/food_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := food_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_hal_ctrl_dat
+LOCAL_MODULE := hal_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/hal_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_hal_ctrl_platform_dat
+LOCAL_MODULE := hal_ctrl_platform
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/hal_ctrl_platform.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_hal_ctrl_platform_abf_dat
+LOCAL_MODULE := hal_ctrl_platform_abf
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/hal_ctrl_platform_abf.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_abf
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_hal_ctrl_platform_asf_lin_dat
+LOCAL_MODULE := hal_ctrl_platform_asf_lin
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/hal_ctrl_platform_asf_lin.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_asf_lin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_hal_ctrl_platform_asf_stp_dat
+LOCAL_MODULE := hal_ctrl_platform_asf_stp
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/hal_ctrl_platform_asf_stp.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_asf_stp
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_hal_ctrl_platform_gic_dat
+LOCAL_MODULE := hal_ctrl_platform_gic
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/hal_ctrl_platform_gic.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_gic
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_hdr_comp_dat
+LOCAL_MODULE := hdr_comp
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/hdr_comp.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hdr_comp
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_idt_ctrl_dat
+LOCAL_MODULE := idt_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/idt_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := idt_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_image_conv_dat
+LOCAL_MODULE := image_conv
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/image_conv.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_image_conv_canele_dat
+LOCAL_MODULE := image_conv_canele
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/image_conv_canele.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_canele
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_image_conv_marble_dat
+LOCAL_MODULE := image_conv_marble
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/image_conv_marble.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_marble
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_image_conv_raisin_dat
+LOCAL_MODULE := image_conv_raisin
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/image_conv_raisin.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_raisin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_image_conv_spica_dat
+LOCAL_MODULE := image_conv_spica
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/image_conv_spica.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_spica
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_jpeg_enc_dat
+LOCAL_MODULE := jpeg_enc
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/jpeg_enc.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := jpeg_enc
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_lens_ctrl_dat
+LOCAL_MODULE := lens_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/lens_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := lens_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_motion_estimation_dat
+LOCAL_MODULE := motion_estimation
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/motion_estimation.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := motion_estimation
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_multiframe_nr_dat
+LOCAL_MODULE := multiframe_nr
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/multiframe_nr.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_multiframe_nr_melonpan_dat
+LOCAL_MODULE := multiframe_nr_melonpan
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/multiframe_nr_melonpan.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_melonpan
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_multiframe_nr_mugichoco_dat
+LOCAL_MODULE := multiframe_nr_mugichoco
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/multiframe_nr_mugichoco.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_mugichoco
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_multiframe_nr_toppo_dat
+LOCAL_MODULE := multiframe_nr_toppo
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/multiframe_nr_toppo.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_toppo
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_object_tracker_dat
+LOCAL_MODULE := object_tracker
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/object_tracker.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := object_tracker
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_scene_detector_dat
+LOCAL_MODULE := scene_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/scene_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := scene_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS2_snapshot_ctrl_dat
+LOCAL_MODULE := snapshot_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS2/snapshot_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := snapshot_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS2
 include $(BUILD_PREBUILT)
@@ -7644,375 +7268,341 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_color_ctrl_dat
+LOCAL_MODULE := color_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/color_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := color_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_dataflow_dat
+LOCAL_MODULE := dataflow
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/dataflow.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := dataflow
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_debug_mgr_dat
+LOCAL_MODULE := debug_mgr
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/debug_mgr.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := debug_mgr
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_exposure_ctrl_dat
+LOCAL_MODULE := exposure_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/exposure_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_exposure_ctrl_diagram_dat
+LOCAL_MODULE := exposure_ctrl_diagram
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/exposure_ctrl_diagram.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl_diagram
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_exposure_ctrl_gamma_dat
+LOCAL_MODULE := exposure_ctrl_gamma
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/exposure_ctrl_gamma.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl_gamma
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_face_detector_dat
+LOCAL_MODULE := face_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/face_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := face_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_flicker_detector_dat
+LOCAL_MODULE := flicker_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/flicker_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := flicker_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_focus_stats_conv_dat
+LOCAL_MODULE := focus_stats_conv
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/focus_stats_conv.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := focus_stats_conv
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_food_comp_yummy_dat
+LOCAL_MODULE := food_comp_yummy
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/food_comp_yummy.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := food_comp_yummy
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_food_detector_dat
+LOCAL_MODULE := food_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/food_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := food_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_hal_ctrl_dat
+LOCAL_MODULE := hal_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/hal_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_hal_ctrl_platform_dat
+LOCAL_MODULE := hal_ctrl_platform
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/hal_ctrl_platform.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_hal_ctrl_platform_abf_dat
+LOCAL_MODULE := hal_ctrl_platform_abf
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/hal_ctrl_platform_abf.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_abf
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_hal_ctrl_platform_asf_lin_dat
+LOCAL_MODULE := hal_ctrl_platform_asf_lin
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/hal_ctrl_platform_asf_lin.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_asf_lin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_hal_ctrl_platform_asf_stp_dat
+LOCAL_MODULE := hal_ctrl_platform_asf_stp
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/hal_ctrl_platform_asf_stp.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_asf_stp
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_hal_ctrl_platform_gic_dat
+LOCAL_MODULE := hal_ctrl_platform_gic
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/hal_ctrl_platform_gic.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_gic
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_hdr_comp_dat
+LOCAL_MODULE := hdr_comp
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/hdr_comp.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hdr_comp
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_idt_ctrl_dat
+LOCAL_MODULE := idt_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/idt_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := idt_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_image_conv_dat
+LOCAL_MODULE := image_conv
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/image_conv.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_image_conv_canele_dat
+LOCAL_MODULE := image_conv_canele
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/image_conv_canele.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_canele
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_image_conv_marble_dat
+LOCAL_MODULE := image_conv_marble
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/image_conv_marble.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_marble
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_image_conv_raisin_dat
+LOCAL_MODULE := image_conv_raisin
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/image_conv_raisin.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_raisin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_image_conv_spica_dat
+LOCAL_MODULE := image_conv_spica
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/image_conv_spica.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_spica
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_jpeg_enc_dat
+LOCAL_MODULE := jpeg_enc
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/jpeg_enc.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := jpeg_enc
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_lens_ctrl_dat
+LOCAL_MODULE := lens_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/lens_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := lens_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_motion_estimation_dat
+LOCAL_MODULE := motion_estimation
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/motion_estimation.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := motion_estimation
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_multiframe_nr_dat
+LOCAL_MODULE := multiframe_nr
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/multiframe_nr.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_multiframe_nr_melonpan_dat
+LOCAL_MODULE := multiframe_nr_melonpan
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/multiframe_nr_melonpan.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_melonpan
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_multiframe_nr_mugichoco_dat
+LOCAL_MODULE := multiframe_nr_mugichoco
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/multiframe_nr_mugichoco.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_mugichoco
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_multiframe_nr_toppo_dat
+LOCAL_MODULE := multiframe_nr_toppo
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/multiframe_nr_toppo.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_toppo
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_object_tracker_dat
+LOCAL_MODULE := object_tracker
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/object_tracker.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := object_tracker
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_scene_detector_dat
+LOCAL_MODULE := scene_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/scene_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := scene_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS3_snapshot_ctrl_dat
+LOCAL_MODULE := snapshot_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS3/snapshot_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := snapshot_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS3
 include $(BUILD_PREBUILT)
@@ -8058,375 +7648,341 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_color_ctrl_dat
+LOCAL_MODULE := color_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/color_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := color_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_dataflow_dat
+LOCAL_MODULE := dataflow
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/dataflow.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := dataflow
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_debug_mgr_dat
+LOCAL_MODULE := debug_mgr
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/debug_mgr.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := debug_mgr
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_exposure_ctrl_dat
+LOCAL_MODULE := exposure_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/exposure_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_exposure_ctrl_diagram_dat
+LOCAL_MODULE := exposure_ctrl_diagram
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/exposure_ctrl_diagram.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl_diagram
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_exposure_ctrl_gamma_dat
+LOCAL_MODULE := exposure_ctrl_gamma
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/exposure_ctrl_gamma.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := exposure_ctrl_gamma
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_face_detector_dat
+LOCAL_MODULE := face_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/face_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := face_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_flicker_detector_dat
+LOCAL_MODULE := flicker_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/flicker_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := flicker_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_focus_stats_conv_dat
+LOCAL_MODULE := focus_stats_conv
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/focus_stats_conv.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := focus_stats_conv
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_food_comp_yummy_dat
+LOCAL_MODULE := food_comp_yummy
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/food_comp_yummy.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := food_comp_yummy
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_food_detector_dat
+LOCAL_MODULE := food_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/food_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := food_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_hal_ctrl_dat
+LOCAL_MODULE := hal_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/hal_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_hal_ctrl_platform_dat
+LOCAL_MODULE := hal_ctrl_platform
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/hal_ctrl_platform.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_hal_ctrl_platform_abf_dat
+LOCAL_MODULE := hal_ctrl_platform_abf
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/hal_ctrl_platform_abf.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_abf
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_hal_ctrl_platform_asf_lin_dat
+LOCAL_MODULE := hal_ctrl_platform_asf_lin
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/hal_ctrl_platform_asf_lin.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_asf_lin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_hal_ctrl_platform_asf_stp_dat
+LOCAL_MODULE := hal_ctrl_platform_asf_stp
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/hal_ctrl_platform_asf_stp.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_asf_stp
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_hal_ctrl_platform_gic_dat
+LOCAL_MODULE := hal_ctrl_platform_gic
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/hal_ctrl_platform_gic.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hal_ctrl_platform_gic
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_hdr_comp_dat
+LOCAL_MODULE := hdr_comp
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/hdr_comp.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := hdr_comp
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_idt_ctrl_dat
+LOCAL_MODULE := idt_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/idt_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := idt_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_image_conv_dat
+LOCAL_MODULE := image_conv
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/image_conv.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_image_conv_canele_dat
+LOCAL_MODULE := image_conv_canele
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/image_conv_canele.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_canele
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_image_conv_marble_dat
+LOCAL_MODULE := image_conv_marble
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/image_conv_marble.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_marble
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_image_conv_raisin_dat
+LOCAL_MODULE := image_conv_raisin
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/image_conv_raisin.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_raisin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_image_conv_spica_dat
+LOCAL_MODULE := image_conv_spica
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/image_conv_spica.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := image_conv_spica
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_jpeg_enc_dat
+LOCAL_MODULE := jpeg_enc
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/jpeg_enc.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := jpeg_enc
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_lens_ctrl_dat
+LOCAL_MODULE := lens_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/lens_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := lens_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_motion_estimation_dat
+LOCAL_MODULE := motion_estimation
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/motion_estimation.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := motion_estimation
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_multiframe_nr_dat
+LOCAL_MODULE := multiframe_nr
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/multiframe_nr.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_multiframe_nr_melonpan_dat
+LOCAL_MODULE := multiframe_nr_melonpan
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/multiframe_nr_melonpan.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_melonpan
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_multiframe_nr_mugichoco_dat
+LOCAL_MODULE := multiframe_nr_mugichoco
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/multiframe_nr_mugichoco.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_mugichoco
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_multiframe_nr_toppo_dat
+LOCAL_MODULE := multiframe_nr_toppo
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/multiframe_nr_toppo.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := multiframe_nr_toppo
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_object_tracker_dat
+LOCAL_MODULE := object_tracker
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/object_tracker.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := object_tracker
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_scene_detector_dat
+LOCAL_MODULE := scene_detector
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/scene_detector.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := scene_detector
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SOI25BS4_snapshot_ctrl_dat
+LOCAL_MODULE := snapshot_ctrl
 LOCAL_MODULE_SUFFIX := .dat
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/camera/SOI25BS4/snapshot_ctrl.dat
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := snapshot_ctrl
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/camera/SOI25BS4
 include $(BUILD_PREBUILT)
