@@ -38,7 +38,6 @@ PRODUCT_PACKAGES += \
 	libexcal_stream_ctrl_plugin \
 	libdrmwvmplugin \
 	camera.msm8994 \
-	sensors.msm8994 \
 	libMcClient \
 	lib_asb_tee \
 	libcacao_client \
@@ -331,7 +330,6 @@ PRODUCT_PACKAGES += \
 	libqcbassboost \
 	libqcreverb \
 	libqcvirt \
-	sensors.msm8994 \
 	libMcClient \
 	lib_asb_tee \
 	libcamera_clientsemc \
