@@ -98,18 +98,6 @@ PRODUCT_PACKAGES += \
 	libsuntory \
 	libsuntory_utils \
 	libta \
-	libaudiopreprocessing \
-	libbundlewrapper \
-	libdownmix \
-	libeffectproxy \
-	libldnhncr \
-	libqcompostprocbundle \
-	libqcomvisualizer \
-	libqcomvoiceprocessing \
-	libreverbwrapper \
-	libsonypostprocbundle \
-	libsonysweffect \
-	libvisualizer \
 	eglSubDriverAndroid \
 	libEGL_adreno \
 	libGLESv1_CM_adreno \
@@ -351,16 +339,6 @@ PRODUCT_PACKAGES += \
 	libsuntory_utils \
 	libta \
 	libtee \
-	libaudiopreprocessing \
-	libbundlewrapper \
-	libdownmix \
-	libeffectproxy \
-	libldnhncr \
-	libqcompostprocbundle \
-	libqcomvisualizer \
-	libqcomvoiceprocessing \
-	libreverbwrapper \
-	libvisualizer \
 	eglSubDriverAndroid \
 	libEGL_adreno \
 	libGLESv1_CM_adreno \
