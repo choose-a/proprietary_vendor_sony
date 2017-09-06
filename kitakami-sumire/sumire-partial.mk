@@ -98,18 +98,6 @@ PRODUCT_PACKAGES += \
 	libsuntory \
 	libsuntory_utils \
 	libta \
-	libaudiopreprocessing \
-	libbundlewrapper \
-	libdownmix \
-	libeffectproxy \
-	libldnhncr \
-	libqcompostprocbundle \
-	libqcomvisualizer \
-	libqcomvoiceprocessing \
-	libreverbwrapper \
-	libsonypostprocbundle \
-	libsonysweffect \
-	libvisualizer \
 	eglSubDriverAndroid \
 	libEGL_adreno \
 	libGLESv1_CM_adreno \
@@ -324,7 +312,6 @@ PRODUCT_PACKAGES += \
 	libtzdrmgenprov \
 	libwvdrm_L1 \
 	libwvm \
-	libdrmclearkeyplugin \
 	libwvdrmengine \
 	sensors.ssc \
 	libqcbassboost \
@@ -351,16 +338,6 @@ PRODUCT_PACKAGES += \
 	libsuntory_utils \
 	libta \
 	libtee \
-	libaudiopreprocessing \
-	libbundlewrapper \
-	libdownmix \
-	libeffectproxy \
-	libldnhncr \
-	libqcompostprocbundle \
-	libqcomvisualizer \
-	libqcomvoiceprocessing \
-	libreverbwrapper \
-	libvisualizer \
 	eglSubDriverAndroid \
 	libEGL_adreno \
 	libGLESv1_CM_adreno \
@@ -429,7 +406,6 @@ PRODUCT_PACKAGES += \
 	libsensor_reg \
 	libssd \
 	libtzdrmgenprov \
-	libdrmclearkeyplugin \
 	sensors.ssc \
 	MTP_Bluetooth_cal \
 	MTP_General_cal \
