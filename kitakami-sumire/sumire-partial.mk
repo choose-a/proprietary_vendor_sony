@@ -98,8 +98,6 @@ PRODUCT_PACKAGES += \
 	libsuntory \
 	libsuntory_utils \
 	libta \
-	libaudiopreprocessing \
-	libbundlewrapper \
 	libdownmix \
 	libeffectproxy \
 	libldnhncr \
@@ -351,8 +349,6 @@ PRODUCT_PACKAGES += \
 	libsuntory_utils \
 	libta \
 	libtee \
-	libaudiopreprocessing \
-	libbundlewrapper \
 	libdownmix \
 	libeffectproxy \
 	libldnhncr \
