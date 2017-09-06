@@ -421,6 +421,15 @@ PRODUCT_PACKAGES += \
 	Sony_Hdmi_cal \
 	Sony_Headset_cal \
 	Sony_Speaker_cal \
+	a225_pfp \
+	a225_pm4 \
+	a225p5_pm4 \
+	a300_pfp \
+	a300_pm4 \
+	a330_pfp \
+	a330_pm4 \
+	a420_pfp \
+	a420_pm4 \
 	cpp_firmware_v1_1_1 \
 	cpp_firmware_v1_1_6 \
 	cpp_firmware_v1_2_0 \
