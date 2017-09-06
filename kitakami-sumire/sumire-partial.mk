@@ -119,6 +119,10 @@ PRODUCT_PACKAGES += \
 	libRSDriver_adreno \
 	libStDrvInt \
 	libWVStreamControlAPI_L1 \
+	libacdb-fts \
+	libacdbloader \
+	libacdbmapper \
+	libacdbrtac \
 	libactuator_ad5823 \
 	libactuator_ad5823_camcorder \
 	libactuator_ad5823_camera \
@@ -146,8 +150,11 @@ PRODUCT_PACKAGES += \
 	libactuator_rohm_bu64243gwz \
 	libactuator_rohm_bu64243gwz_camcorder \
 	libactuator_rohm_bu64243gwz_camera \
+	libadiertac \
 	libadm \
 	libadreno_utils \
+	libaudcal \
+	libaudioalsa \
 	libavenhancements \
 	libc2d30-a4xx \
 	libchromatix_s5k3m2xx_common \
@@ -359,7 +366,14 @@ PRODUCT_PACKAGES += \
 	libQSEEComAPI \
 	libRSDriver_adreno \
 	libStDrvInt \
+	libacdb-fts \
+	libacdbloader \
+	libacdbmapper \
+	libacdbrtac \
+	libadiertac \
 	libadreno_utils \
+	libaudcal \
+	libaudioalsa \
 	libavenhancements \
 	libc2d30-a4xx \
 	libdataitems \
