@@ -84,7 +84,6 @@ def generate_module(f, owner, modclass, target_base, multilib):
         mod['class'] = 'SHARED_LIBRARIES'
         mod['module'] = mod['stem']
         mod['class'] = mod['class'] + '\nLOCAL_MULTILIB := ' + multilib
-        mod['class'] = mod['class'] + '\nLOCAL_STRIP_MODULE := false'
     else :
         mod['class'] = modclass
 
