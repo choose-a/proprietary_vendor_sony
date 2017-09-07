@@ -93,11 +93,16 @@ PRODUCT_PACKAGES += \
 	libsomc_topporsc \
 	libsomc_yummy \
 	libsomc_yummyrsc \
+	libsomcavextensionsimpl \
+	libsomcmediahttp \
 	libsony_fooddetect \
 	libsony_naruto \
+	libstagefright_soft_somcalacdec \
+	libstagefright_soft_somcdsddec \
 	libsuntory \
 	libsuntory_utils \
 	libta \
+	libwebviewsomc_plat_support \
 	eglSubDriverAndroid \
 	libEGL_adreno \
 	libGLESv1_CM_adreno \
@@ -105,15 +110,27 @@ PRODUCT_PACKAGES += \
 	libQTapGLES \
 	libq3dtools_adreno \
 	libq3dtools_esx \
+	lib-imscamera \
 	lib-imss \
 	lib-imsvt \
 	lib-imsxml \
 	lib-sec-disp \
 	libC2D2 \
 	libCB \
+	libEGL_adreno \
+	libExtendedExtractor \
 	libFIDOKeyProvisioning \
 	libFidoCrypto \
 	libFidoCryptoJNI \
+	libFileMux \
+	libFlacSwDec \
+	libI420colorconvert \
+	libOmxAacDec \
+	libOmxAmrwbplusDec \
+	libOmxEvrcDec \
+	libOmxMux \
+	libOmxQcelp13Dec \
+	libOmxWmaDec \
 	libOpenCL \
 	libQSEEComAPI \
 	libRSDriver_adreno \
@@ -153,10 +170,13 @@ PRODUCT_PACKAGES += \
 	libadiertac \
 	libadm \
 	libadreno_utils \
+	libadsprpc \
 	libaudcal \
 	libaudioalsa \
 	libavenhancements \
+	libc2d30-a3xx \
 	libc2d30-a4xx \
+	libchromaflash \
 	libchromatix_s5k3m2xx_common \
 	libchromatix_s5k3m2xx_cpp_hfr_120 \
 	libchromatix_s5k3m2xx_cpp_hfr_60 \
@@ -176,6 +196,7 @@ PRODUCT_PACKAGES += \
 	libchromatix_s5k3m2xx_snapshot \
 	libchromatix_s5k3m2xx_video_4k \
 	libdataitems \
+	libdrmclearkeyplugin \
 	libdrmfs \
 	libdrmtime \
 	libfastcvadsp_stub \
@@ -183,11 +204,15 @@ PRODUCT_PACKAGES += \
 	libflash_pmic \
 	libgsl \
 	libhwdaphal \
+	libimscamera_jni \
 	libjpegdhw \
 	libjpegdmahw \
 	libjpegehw \
+	libllvd_smore \
 	libllvm-glnext \
 	libllvm-qcom \
+	libmdmdetect \
+	libmdsprpc \
 	libmm-abl-oem \
 	libmm-abl \
 	libmm-als \
@@ -298,6 +323,7 @@ PRODUCT_PACKAGES += \
 	libmmwfdinterface \
 	libmmwfdsinkinterface \
 	libmmwfdsrcinterface \
+	libnative_audio_latency_jni \
 	liboemcamera \
 	libois_lc898122 \
 	libpreload-me \
@@ -317,10 +343,33 @@ PRODUCT_PACKAGES += \
 	libsensor1 \
 	libsensor_reg \
 	libssd \
+	libsurround_3mic_proc \
+	libts_detected_face_jni \
+	libts_face_beautify_jni \
 	libtzdrmgenprov \
+	libwfdavenhancements \
+	libwfdcommonutils \
+	libwfdmmsink \
+	libwfdmmsrc \
+	libwfdmmutils \
+	libwfdnative \
+	libwfdrtsp \
+	libwfdservice \
+	libwfdsm \
+	libwfduibcinterface \
+	libwfduibcsink \
+	libwfduibcsinkinterface \
+	libwfduibcsrc \
+	libwfduibcsrcinterface \
+	libwms \
 	libwvdrm_L1 \
 	libwvm \
 	libwvdrmengine \
+	fastrpc_shell_0 \
+	libapps_mem_heap \
+	libdspCV_skel \
+	libfastcvadsp \
+	libfastcvadsp_skel \
 	sensors.ssc \
 	libqcbassboost \
 	libqcreverb \
@@ -342,10 +391,14 @@ PRODUCT_PACKAGES += \
 	libprotobuf-c \
 	libscdclient \
 	libsomc_thermal \
+	libsomcavextensionsimpl \
+	libsomcmediahttp \
+	libsomcwifi-service \
 	libsuntory \
 	libsuntory_utils \
 	libta \
 	libtee \
+	libwebviewsomc_plat_support \
 	eglSubDriverAndroid \
 	libEGL_adreno \
 	libGLESv1_CM_adreno \
@@ -353,6 +406,7 @@ PRODUCT_PACKAGES += \
 	libQTapGLES \
 	libq3dtools_adreno \
 	libq3dtools_esx \
+	lib-imscamera \
 	lib-imss \
 	lib-imsvt \
 	lib-imsxml \
@@ -360,9 +414,18 @@ PRODUCT_PACKAGES += \
 	lib-sec-disp \
 	libC2D2 \
 	libCB \
+	libEGL_adreno \
+	libExtendedExtractor \
 	libFIDOKeyProvisioning \
 	libFidoCrypto \
 	libFidoCryptoJNI \
+	libFileMux \
+	libFlacSwDec \
+	libI420colorconvert \
+	libOmxAacDec \
+	libOmxAmrwbplusDec \
+	libOmxMux \
+	libOmxWmaDec \
 	libOpenCL \
 	libQSEEComAPI \
 	libRSDriver_adreno \
@@ -373,17 +436,23 @@ PRODUCT_PACKAGES += \
 	libacdbrtac \
 	libadiertac \
 	libadreno_utils \
+	libadsprpc \
 	libaudcal \
 	libaudioalsa \
 	libavenhancements \
+	libc2d30-a3xx \
 	libc2d30-a4xx \
 	libdataitems \
+	libdrmclearkeyplugin \
 	libdrmfs \
 	libdrmtime \
 	libgsl \
 	libhwdaphal \
+	libimscamera_jni \
 	libllvm-glnext \
 	libllvm-qcom \
+	libmdmdetect \
+	libmdsprpc \
 	libmm-abl-oem \
 	libmm-abl \
 	libmm-als \
@@ -422,6 +491,21 @@ PRODUCT_PACKAGES += \
 	libsensor_reg \
 	libssd \
 	libtzdrmgenprov \
+	libwfdavenhancements \
+	libwfdcommonutils \
+	libwfdmmsink \
+	libwfdmmsrc \
+	libwfdmmutils \
+	libwfdnative \
+	libwfdrtsp \
+	libwfdservice \
+	libwfdsm \
+	libwfduibcinterface \
+	libwfduibcsink \
+	libwfduibcsinkinterface \
+	libwfduibcsrc \
+	libwfduibcsrcinterface \
+	libwms \
 	sensors.ssc \
 	MTP_Bluetooth_cal \
 	MTP_General_cal \
