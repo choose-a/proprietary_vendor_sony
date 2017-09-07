@@ -995,6 +995,32 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libsomcavextensionsimpl
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib/libsomcavextensionsimpl.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libsomcavextensionsimpl
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libsomcmediahttp
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib/libsomcmediahttp.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libsomcmediahttp
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libsony_fooddetect
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -1011,6 +1037,30 @@ LOCAL_MODULE := libsony_naruto
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libsony_naruto.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libstagefright_soft_somcalacdec
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib/libstagefright_soft_somcalacdec.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libstagefright_soft_somcdsddec
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib/libstagefright_soft_somcdsddec.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
@@ -1051,6 +1101,19 @@ LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libta.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libta
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwebviewsomc_plat_support
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib/libwebviewsomc_plat_support.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwebviewsomc_plat_support
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1149,6 +1212,19 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/egl
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := lib-imscamera
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/lib-imscamera.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := lib-imscamera
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := lib-imss
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -1227,6 +1303,19 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libExtendedExtractor
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libExtendedExtractor.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libExtendedExtractor
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libFIDOKeyProvisioning
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -1259,6 +1348,121 @@ LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libFidoCryptoJNI.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libFidoCryptoJNI
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libFileMux
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libFileMux.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libFileMux
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libFlacSwDec
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libFlacSwDec.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libFlacSwDec
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libI420colorconvert
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libI420colorconvert.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libI420colorconvert
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libOmxAacDec
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libOmxAacDec.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libOmxAacDec
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libOmxAmrwbplusDec
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libOmxAmrwbplusDec.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libOmxAmrwbplusDec
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libOmxEvrcDec
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libOmxEvrcDec.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libOmxMux
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libOmxMux.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libOmxMux
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libOmxQcelp13Dec
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libOmxQcelp13Dec.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libOmxWmaDec
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libOmxWmaDec.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libOmxWmaDec
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -1744,6 +1948,19 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libadsprpc
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libadsprpc.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libadsprpc
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libaudcal
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -1783,12 +2000,37 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libc2d30-a3xx
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libc2d30-a3xx.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libc2d30-a3xx
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libc2d30-a4xx
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libc2d30-a4xx.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libc2d30-a4xx
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libchromaflash
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libchromaflash.so
+LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -2025,6 +2267,19 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libdrmclearkeyplugin
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libdrmclearkeyplugin.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libdrmclearkeyplugin
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libdrmfs
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2113,6 +2368,19 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libimscamera_jni
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libimscamera_jni.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libimscamera_jni
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libjpegdhw
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2149,6 +2417,18 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libllvd_smore
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libllvd_smore.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libllvm-glnext
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -2168,6 +2448,32 @@ LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libllvm-qcom.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libllvm-qcom
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libmdmdetect
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libmdmdetect.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libmdmdetect
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libmdsprpc
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libmdsprpc.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libmdsprpc
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3520,6 +3826,18 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libnative_audio_latency_jni
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libnative_audio_latency_jni.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := liboemcamera
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -3760,12 +4078,243 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libsurround_3mic_proc
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libsurround_3mic_proc.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libts_detected_face_jni
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libts_detected_face_jni.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libts_face_beautify_jni
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libts_face_beautify_jni.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libtzdrmgenprov
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libtzdrmgenprov.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libtzdrmgenprov
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfdavenhancements
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libwfdavenhancements.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfdavenhancements
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfdcommonutils
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libwfdcommonutils.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfdcommonutils
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfdmmsink
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libwfdmmsink.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfdmmsink
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfdmmsrc
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libwfdmmsrc.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfdmmsrc
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfdmmutils
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libwfdmmutils.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfdmmutils
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfdnative
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libwfdnative.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfdnative
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfdrtsp
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libwfdrtsp.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfdrtsp
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfdservice
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libwfdservice.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfdservice
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfdsm
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libwfdsm.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfdsm
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfduibcinterface
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libwfduibcinterface.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfduibcinterface
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfduibcsink
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libwfduibcsink.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfduibcsink
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfduibcsinkinterface
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libwfduibcsinkinterface.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfduibcsinkinterface
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfduibcsrc
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libwfduibcsrc.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfduibcsrc
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfduibcsrcinterface
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libwfduibcsrcinterface.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfduibcsrcinterface
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwms
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libwms.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwms
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
@@ -3806,6 +4355,64 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_STRIP_MODULE := false
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/mediadrm
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := fastrpc_shell_0
+LOCAL_MODULE_SUFFIX := 
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/rfsa/adsp/fastrpc_shell_0
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/rfsa/adsp
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libapps_mem_heap
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/rfsa/adsp/libapps_mem_heap.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/rfsa/adsp
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libdspCV_skel
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/rfsa/adsp/libdspCV_skel.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/rfsa/adsp
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libfastcvadsp
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/rfsa/adsp/libfastcvadsp.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/rfsa/adsp
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libfastcvadsp_skel
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/rfsa/adsp
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -4079,6 +4686,44 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libsomcavextensionsimpl
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib64/libsomcavextensionsimpl.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libsomcavextensionsimpl
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libsomcmediahttp
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib64/libsomcmediahttp.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libsomcmediahttp
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libsomcwifi-service
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib64/libsomcwifi-service.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libsuntory
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -4123,6 +4768,19 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib64/libtee.so
 LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwebviewsomc_plat_support
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := lib64/libwebviewsomc_plat_support.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwebviewsomc_plat_support
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4221,6 +4879,19 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64/egl
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := lib-imscamera
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/lib-imscamera.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := lib-imscamera
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := lib-imss
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -4311,6 +4982,19 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libExtendedExtractor
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libExtendedExtractor.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libExtendedExtractor
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libFIDOKeyProvisioning
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -4343,6 +5027,97 @@ LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libFidoCryptoJNI.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libFidoCryptoJNI
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libFileMux
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libFileMux.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libFileMux
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libFlacSwDec
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libFlacSwDec.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libFlacSwDec
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libI420colorconvert
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libI420colorconvert.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libI420colorconvert
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libOmxAacDec
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libOmxAacDec.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libOmxAacDec
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libOmxAmrwbplusDec
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libOmxAmrwbplusDec.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libOmxAmrwbplusDec
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libOmxMux
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libOmxMux.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libOmxMux
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libOmxWmaDec
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libOmxWmaDec.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libOmxWmaDec
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4480,6 +5255,19 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libadsprpc
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libadsprpc.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libadsprpc
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libaudcal
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -4519,6 +5307,19 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libc2d30-a3xx
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libc2d30-a3xx.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libc2d30-a3xx
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libc2d30-a4xx
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -4538,6 +5339,19 @@ LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libdataitems.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libdataitems
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libdrmclearkeyplugin
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libdrmclearkeyplugin.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libdrmclearkeyplugin
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -4597,6 +5411,19 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libimscamera_jni
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libimscamera_jni.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libimscamera_jni
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libllvm-glnext
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -4616,6 +5443,32 @@ LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libllvm-qcom.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libllvm-qcom
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libmdmdetect
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libmdmdetect.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libmdmdetect
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libmdsprpc
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libmdsprpc.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libmdsprpc
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
@@ -5110,6 +5963,201 @@ LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/libtzdrmgenprov.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libtzdrmgenprov
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfdavenhancements
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libwfdavenhancements.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfdavenhancements
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfdcommonutils
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libwfdcommonutils.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfdcommonutils
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfdmmsink
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libwfdmmsink.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfdmmsink
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfdmmsrc
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libwfdmmsrc.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfdmmsrc
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfdmmutils
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libwfdmmutils.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfdmmutils
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfdnative
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libwfdnative.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfdnative
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfdrtsp
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libwfdrtsp.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfdrtsp
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfdservice
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libwfdservice.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfdservice
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfdsm
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libwfdsm.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfdsm
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfduibcinterface
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libwfduibcinterface.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfduibcinterface
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfduibcsink
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libwfduibcsink.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfduibcsink
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfduibcsinkinterface
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libwfduibcsinkinterface.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfduibcsinkinterface
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfduibcsrc
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libwfduibcsrc.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfduibcsrc
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwfduibcsrcinterface
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libwfduibcsrcinterface.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwfduibcsrcinterface
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_STRIP_MODULE := false
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwms
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/libwms.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := libwms
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 64
 LOCAL_STRIP_MODULE := false
